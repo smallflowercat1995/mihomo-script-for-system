@@ -5,10 +5,13 @@ Clash virtual private network technology script adapted to various systems
 0.这个项目目前 10 代 CPU 会遇到 v3 版本不能使用的问题，需要手动下载 clash v1 的内核替换到 sources 文件夹里对应的位置，我的电脑是 7 代 CPU 用 v3 版本没有问题，我习惯优先方便自己使用，所以不打算修改代码逻辑，请原谅  
 1.这个项目主要是自己编写的科学上网小工具，依赖 clash 内核，依赖 bash curl nohup killall 等指令，方便自己学习新知识，主要是为了学习！！！不要想太多  
 2.运行 actions workflow 用于更新二进制文件和脚本，需要添加 `GITHUB_TOKEN` 环境变量，这个是访问 GitHub API 的令牌，可以在 GitHub 主页，点击个人头像，Settings -> Developer settings -> Personal access tokens ，设置名字为 GITHUB_TOKEN 接着要勾选权限，勾选repo、admin:repo_hook和workflow即可，最后点击Generate token，如图所示  
-<img width="783" alt="截屏2023-09-10 02 05 43" src="https://github.com/smallflowercat1995/clash-script-for-system/assets/144557489/0c5c6dbd-e2b6-48e1-b609-ec43db34931f">
- 
-3.转到 Actions -> update clash and uri 并且启动 workflow，实现自动化  
-4.新修改目录结构  
+![account_token](https://github.com/smallflowercat1995/clash-script-for-system/assets/144557489/b8543934-450e-46f3-8096-1b8cd63aea0b)
+
+3.赋予 actions[bot] 读/写仓库权限 -> Settings -> Actions -> General -> Workflow Permissions -> Read and write permissions -> save，如图所示
+![repository_authorized](https://github.com/smallflowercat1995/clash-script-for-system/assets/144557489/aa697028-66fb-499b-a0af-765061ed0edf)
+
+4.转到 Actions -> update clash and uri 并且启动 workflow，实现自动化  
+5.新修改目录结构  
 
     .
     ├── sources
@@ -66,7 +69,8 @@ windows mac 目前支持安装 chrome
 ## 新增
 1.最近新增了 github actions 定时运行任务，可以自动运行获取链接脚本，这样，我就不用管节点更新的部分了，我以后可以专心提交代码要修改的部分了  
 2.新增了代码逻辑判断，主要是数字选则的逻辑，似乎有点问题，我修了修  
-3.修改了目录结构，彻底放飞思维模式，嘿嘿>^<~~
+3.修改了目录结构，彻底放飞思维模式，嘿嘿>^<~~  
+4.一些孩子总问我如何配置，我是不胜其扰啊，所以附上图片，你们老哥我年纪已经很大了求放过，呜呜呜，修改了描述文件，提供详细的描述，方便他人，呜呜，我真善良
 
 # 声明
 本项目仅作学习交流使用，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
