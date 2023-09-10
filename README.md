@@ -5,7 +5,8 @@ Clash virtual private network technology script adapted to various systems
 0.这个项目目前 10 代 CPU 会遇到 v3 版本不能使用的问题，需要手动下载 clash v1 的内核替换到 sources 文件夹里对应的位置，我的电脑是 7 代 CPU 用 v3 版本没有问题，我习惯优先方便自己使用，所以不打算修改代码逻辑，请原谅  
 1.这个项目主要是自己编写的科学上网小工具，依赖 clash 内核，依赖 bash curl nohup killall 等指令，方便自己学习新知识，主要是为了学习！！！不要想太多  
 2.运行 actions workflow 用于更新二进制文件和脚本，需要添加 `GITHUB_TOKEN` 环境变量，这个是访问 GitHub API 的令牌，可以在 GitHub 主页，点击个人头像，Settings -> Developer settings -> Personal access tokens ，设置名字为 GITHUB_TOKEN 接着要勾选权限，勾选repo、admin:repo_hook和workflow即可，最后点击Generate token，如图所示  
-![image](https://user-images.githubusercontent.com/94947393/190647552-337e1a45-de06-4428-bf1d-da73594920c5.png)  
+<img width="783" alt="截屏2023-09-10 02 05 43" src="https://github.com/smallflowercat1995/clash-script-for-system/assets/144557489/0c5c6dbd-e2b6-48e1-b609-ec43db34931f">
+ 
 3.转到 Actions -> update clash and uri 并且启动 workflow，实现自动化  
 4.新修改目录结构  
 
