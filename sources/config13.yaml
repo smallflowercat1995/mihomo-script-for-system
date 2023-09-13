@@ -4,218 +4,263 @@ allow-lan: false
 mode: Rule
 log-level: info
 proxies:
-  - {name: 🇸🇬 北京市 新国信通信有限公司, server: zjxc.pmxu.link, port: 42862, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇸🇬 北京市 新国信通信有限公司 2, server: zjxc.pmxu.link, port: 37377, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇨🇳 广东省深圳市 移动, server: kvxul-1092-v2-4.r-kcd-b.iote.bond, port: 39918, type: vmess, uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.cjhh.lol}}}
-  - {name: 🇨🇳 上海市 电信, server: shct.pmxu.link, port: 25427, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇨🇳 上海市 电信 2, server: shct.pmxu.link, port: 14767, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.64.202.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 4, server: 172.64.198.36, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇭🇰 「节点冠名招商 @nodpai」🇭🇰 HK 01, server: 36.137.19.45, port: 55103, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: "🇭🇰 「蛋挞云,流媒体全解锁」🇭🇰 HK 02", server: 36.137.19.45, port: 55107, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: "🇭🇰 「eggtartcloud.shop 自选入口,速度保证」🇭🇰 HK 03", server: 36.137.19.45, port: 55102, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: "🇭🇰 「蛋挞云,超低价格,超高体验」🇭🇰 HK 04", server: 36.137.19.45, port: 55109, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: 🇨🇳 四川省泸州市 移动, server: 112.45.36.142, port: 44184, type: ss, cipher: chacha20-ietf-poly1305, password: 1623ddeb-165b-4845-86fc-a254a9464b04}
+  - {name: 🇨🇳 上海市 电信, server: shct.pmxu.link, port: 22177, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇨🇳 上海市 电信 2, server: shct.pmxu.link, port: 55906, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 172.67.92.55, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.27.193.64, port: 443, type: vmess, uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1, alterId: 0, cipher: auto, tls: true, servername: avaspeed.jetspeed.fun, network: ws, ws-opts: {path: /pDDgT3v8NaAJHFPuEaDfC8t, headers: {Host: avaspeed.jetspeed.fun}}}
+  - {name: 🇭🇰 「节点冠名招商 @nodpai」🇭🇰 HK 01, server: 36.137.19.45, port: 55102, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: "🇭🇰 「蛋挞云,流媒体全解锁」🇭🇰 HK 02", server: 36.137.19.45, port: 55109, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: "🇭🇰 「eggtartcloud.shop 自选入口,速度保证」🇭🇰 HK 03", server: 36.137.19.45, port: 55104, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: "🇭🇰 「蛋挞云,超低价格,超高体验」🇭🇰 HK 04", server: 36.137.19.45, port: 55101, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
   - {name: 🇭🇰 中转 🇭🇰 Hong Kong 05 @nodpai, server: 36.137.19.45, port: 55110, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 06 @nodpai, server: 36.137.19.45, port: 55104, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 07 @nodpai, server: 36.137.19.45, port: 55106, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 08 @nodpai, server: 36.137.19.45, port: 55105, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 09 @nodpai, server: 36.137.19.45, port: 55108, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 10 @nodpai, server: 36.137.19.45, port: 55101, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
-  - {name: 🇸🇬 Singapore 01 @nodpai, server: 13.213.53.160, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 Singapore 02 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 Singapore 03 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 Singapore 04 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 01 @nodpai, server: xxx2.meiyiss.club, port: 33101, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 02 @nodpai, server: jpgy.115cloud.link, port: 39409, type: vmess, uuid: d0c8c8fd-6f25-3c8d-a858-48bdf2411857, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 06 @nodpai, server: 36.137.19.45, port: 55108, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 07 @nodpai, server: 36.137.19.45, port: 55103, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 08 @nodpai, server: 36.137.19.45, port: 55107, type: ss, cipher: aes-128-gcm, password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe}
+  - {name: 🇸🇬 Singapore 01 @nodpai, server: 13.215.175.74, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 02 @nodpai, server: yd.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇸🇬 Singapore 03 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai, server: aca-ct-js-2g-1.cfprefer1.xyz, port: 10014, type: ss, cipher: aes-256-gcm, password: a845f902-f4d2-44e8-b774-aea733ae3e48}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 05 @nodpai, server: lt.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
   - {name: 🇺🇸 United States 01 @nodpai, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 05 @nodpai, server: dx.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 06 @nodpai, server: lt.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇰🇷 South Korea 01 @nodpai, server: zzzz.meiyiss.club, port: 32702, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇹🇭 中转 🇹🇭 Thailand 01 @nodpai, server: foshan.chiguayun.cc, port: 27115, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇰🇷 South Korea 02 @nodpai, server: zzzz.meiyiss.club, port: 32703, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇺🇸 United States 02 @nodpai, server: 23.224.11.146, port: 41009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 South Korea 03 @nodpai, server: zzzz.meiyiss.club, port: 32701, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇮🇳 中转 🇮🇳 India 01 @nodpai, server: lt.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 11 @nodpai, server: xxx4.meiyiss.club, port: 44103, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇭🇰 Hong Kong 12 @nodpai, server: zzzz.meiyiss.club, port: 32601, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 07 @nodpai, server: sg-gy.115cloud.link, port: 26768, type: vmess, uuid: d0c8c8fd-6f25-3c8d-a858-48bdf2411857, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 中转 🇦🇺 Australia 01 @nodpai, server: yd.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇸🇬 Singapore 06 @nodpai, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: a30ba00c-802e-4a2d-bb93-aa15adaebc6d, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 07 @nodpai, server: lt.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai, server: dx.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 United States 02 @nodpai, server: 142.4.126.23, port: 51715, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 09 @nodpai, server: 112.26.231.79, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇮🇳 中转 🇮🇳 India 01 @nodpai, server: yd.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇺🇸 United States 03 @nodpai, server: 35.92.39.120, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 09 @nodpai, server: aca-ct-gz-2g-1.cfprefer1.xyz, port: 14149, type: ss, cipher: aes-256-gcm, password: a845f902-f4d2-44e8-b774-aea733ae3e48}
   - {name: 🇮🇳 中转 🇮🇳 India 02 @nodpai, server: dx.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇮🇳 中转 🇮🇳 India 03 @nodpai, server: yd.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 13 @nodpai, server: gg.58n.net, port: 24603, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z259.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇮🇳 中转 🇮🇳 India 04 @nodpai, server: lt.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇭🇰 Hong Kong 14 @nodpai, server: zzzz.meiyiss.club, port: 32603, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 09 @nodpai, server: lt.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇭🇰 Hong Kong 15 @nodpai, server: zzzz.meiyiss.club, port: 32602, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 16 @nodpai, server: gg.58n.net, port: 20278, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z278.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 10 @nodpai, server: free.node.kk-proxy.pro, port: 24961, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
-  - {name: 🇦🇺 中转 🇦🇺 Australia 02 @nodpai, server: dx.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 11 @nodpai, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 17 @nodpai, server: gg.58n.net, port: 43337, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: x102.flybar.work, skip-cert-verify: true}
-  - {name: 🇯🇵 Japan 03 @nodpai, server: zzzz.meiyiss.club, port: 32301, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇦🇺 中转 🇦🇺 Australia 03 @nodpai, server: lt.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇯🇵 Japan 04 @nodpai, server: zzzz.meiyiss.club, port: 32302, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇺🇸 中转 🇺🇸 United States 03 @nodpai, server: xxx2.meiyiss.club, port: 33103, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇸🇬 Singapore 12 @nodpai, server: zzzz.meiyiss.club, port: 32403, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇸🇬 Singapore 13 @nodpai, server: zzzz.meiyiss.club, port: 32402, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇸🇬 Singapore 14 @nodpai, server: zzzz.meiyiss.club, port: 32401, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 10 @nodpai, server: aca-ct-gz-2g-1.cfprefer1.xyz, port: 10016, type: ss, cipher: aes-256-gcm, password: a845f902-f4d2-44e8-b774-aea733ae3e48}
+  - {name: 🇰🇷 South Korea 01 @nodpai, server: 43.201.62.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 10 @nodpai, server: yd.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇮🇳 中转 🇮🇳 India 03 @nodpai, server: lt.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 11 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇮🇳 中转 🇮🇳 India 04 @nodpai, server: dx.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 12 @nodpai, server: free.node.kk-proxy.pro, port: 24961, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 13 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 14 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 15 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇰🇷 South Korea 02 @nodpai, server: 43.202.1.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇺🇸 United States 04 @nodpai, server: 129.146.247.135, port: 42598, type: vmess, uuid: 1773b226-0bdb-43c5-87d8-270d26211dda, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 中转 🇰🇷 South Korea 04 @nodpai, server: kr-gy.115cloud.link, port: 59151, type: vmess, uuid: d0c8c8fd-6f25-3c8d-a858-48bdf2411857, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇦🇺 中转 🇦🇺 Australia 04 @nodpai, server: dx.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇭🇺 中转 🇭🇺 Hungary 01 @nodpai, server: xxx3.meiyiss.club, port: 34103, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇮🇳 中转 🇮🇳 India 05 @nodpai, server: dx.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇵🇱 中转 🇵🇱 Poland 01 @nodpai, server: xxx3.meiyiss.club, port: 34106, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇹🇭 中转 🇹🇭 Thailand 02 @nodpai, server: xxx1.meiyiss.club, port: 34101, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 18 @nodpai, server: gg.58n.net, port: 20301, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z301.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇸🇬 Singapore 15 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇯🇵 Japan 05 @nodpai, server: zzzz.meiyiss.club, port: 32303, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 16 @nodpai, server: gg.58n.net, port: 30712, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: x83.flybar.work, skip-cert-verify: true}
+  - {name: 🇮🇳 中转 🇮🇳 India 05 @nodpai, server: yd.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇮🇳 中转 🇮🇳 India 06 @nodpai, server: lt.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇰🇷 South Korea 03 @nodpai, server: 43.202.44.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇦🇺 中转 🇦🇺 Australia 01 @nodpai, server: lt.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇦🇺 中转 🇦🇺 Australia 02 @nodpai, server: 112.26.231.79, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
   - {name: 🇫🇷 中转 🇫🇷 France 01 @nodpai, server: yd.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇮🇳 中转 🇮🇳 India 06 @nodpai, server: hefei.chiguayun.cc, port: 27103, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇹🇼 中转 🇹🇼 Taiwan 01 @nodpai, server: gg.58n.net, port: 17629, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z258.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇹🇭 Thailand 03 @nodpai, server: zzzz.meiyiss.club, port: 32201, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇫🇷 中转 🇫🇷 France 02 @nodpai, server: lt.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai, server: lt.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇩🇪 中转 🇩🇪 Germany 01 @nodpai, server: yd.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇺🇸 United States 05 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇺🇸 United States 06 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 02 @nodpai, server: lt.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇭🇰 Hong Kong 11 @nodpai, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
+  - {name: 🇸🇬 Singapore 16 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 17 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇦🇺 中转 🇦🇺 Australia 03 @nodpai, server: yd.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇦🇺 中转 🇦🇺 Australia 04 @nodpai, server: dx.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇦🇺 中转 🇦🇺 Australia 05 @nodpai, server: lt.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇫🇷 中转 🇫🇷 France 02 @nodpai, server: yd.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 02 @nodpai, server: yd.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇫🇷 中转 🇫🇷 France 03 @nodpai, server: lt.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 03 @nodpai, server: yd.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇦🇺 中转 🇦🇺 Australia 06 @nodpai, server: yd.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 United States 05 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇫🇷 中转 🇫🇷 France 04 @nodpai, server: dx.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 United States 06 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇫🇷 中转 🇫🇷 France 05 @nodpai, server: dx.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇺🇸 United States 07 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇫🇷 中转 🇫🇷 France 06 @nodpai, server: lt.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 04 @nodpai, server: lt.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇺🇸 United States 08 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇩🇪 中转 🇩🇪 Germany 01 @nodpai, server: lt.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 United States 09 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 05 @nodpai, server: 112.26.231.79, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 06 @nodpai, server: dx.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
   - {name: 🇩🇪 中转 🇩🇪 Germany 02 @nodpai, server: yd.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
   - {name: 🇩🇪 中转 🇩🇪 Germany 03 @nodpai, server: dx.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇺🇸 United States 07 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇫🇷 中转 🇫🇷 France 03 @nodpai, server: dx.ktmwan.top, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇺🇸 United States 08 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇩🇪 中转 🇩🇪 Germany 04 @nodpai, server: lt.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇺🇸 United States 09 @nodpai, server: zzzz.meiyiss.club, port: 32503, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇰🇷 中转 🇰🇷 South Korea 05 @nodpai, server: gg.58n.net, port: 50355, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z264.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇺🇸 United States 10 @nodpai, server: zzzz.meiyiss.club, port: 32501, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
+  - {name: 🇫🇷 中转 🇫🇷 France 07 @nodpai, server: 112.26.231.79, port: 27258, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇩🇪 中转 🇩🇪 Germany 04 @nodpai, server: yd.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 中转 🇺🇸 United States 10 @nodpai, server: yd.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
   - {name: 🇺🇸 中转 🇺🇸 United States 11 @nodpai, server: 101.91.116.224, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 03 @nodpai, server: uk-zl-gy.115cloud.link, port: 18085, type: vmess, uuid: d0c8c8fd-6f25-3c8d-a858-48bdf2411857, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇴 中转 🇷🇴 Romania 01 @nodpai, server: xxx3.meiyiss.club, port: 34104, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 04 @nodpai, server: yd.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇩🇪 中转 🇩🇪 Germany 05 @nodpai, server: dx.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇨🇦 中转 🇨🇦 Canada 01 @nodpai, server: yd.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 05 @nodpai, server: 112.26.231.79, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: Viet Nam 01 @nodpai, server: zzzz.meiyiss.club, port: 32801, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇺🇸 中转 🇺🇸 United States 12 @nodpai, server: lt.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇺🇸 United States 13 @nodpai, server: 134.195.101.33, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇺🇸 中转 🇺🇸 United States 14 @nodpai, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
-  - {name: 🇺🇸 中转 🇺🇸 United States 15 @nodpai, server: dx.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 06 @nodpai, server: gg.58n.net, port: 31313, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z260.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 07 @nodpai, server: gg.58n.net, port: 20139, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z139.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇺🇸 United States 16 @nodpai, server: zzzz.meiyiss.club, port: 32502, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇨🇦 中转 🇨🇦 Canada 02 @nodpai, server: lt.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇿🇦 中转 🇿🇦 South Africa 01 @nodpai, server: xxx3.meiyiss.club, port: 34105, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇨🇦 中转 🇨🇦 Canada 03 @nodpai, server: lt.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 中转 🇺🇸 United States 12 @nodpai, server: yd.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 中转 🇺🇸 United States 13 @nodpai, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
+  - {name: 🇨🇦 中转 🇨🇦 Canada 01 @nodpai, server: yd.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 07 @nodpai, server: dx.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇰🇷 中转 🇰🇷 South Korea 04 @nodpai, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}}
+  - {name: 🇺🇸 United States 14 @nodpai, server: 134.195.101.32, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇨🇦 中转 🇨🇦 Canada 02 @nodpai, server: yd.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇺🇸 中转 🇺🇸 United States 15 @nodpai, server: lt.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 中转 🇺🇸 United States 16 @nodpai, server: dx.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
   - {name: 🇺🇸 中转 🇺🇸 United States 17 @nodpai, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: b259dba8-4244-4576-a95e-decb84afda1d}
-  - {name: 🇺🇸 United States 18 @nodpai, server: 134.195.101.32, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇺🇸 United States 19 @nodpai, server: 142.4.110.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/173300203323}}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 17 @nodpai, server: xxx1.meiyiss.club, port: 33102, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇳🇱 Netherlands 01 @nodpai, server: 156.225.67.8, port: 443, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693480232784}}
-  - {name: 🇳🇱 Netherlands 02 @nodpai, server: 156.225.67.234, port: 443, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693304091037}}
-  - {name: 🇵🇱 Poland 02 @nodpai, server: zzzz.meiyiss.club, port: 32804, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇺🇸 中转 🇺🇸 United States 20 @nodpai, server: yd.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇺🇸 中转 🇺🇸 United States 21 @nodpai, server: dx.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇳🇱 Netherlands 03 @nodpai, server: 156.225.67.243, port: 443, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693390440063}}
-  - {name: 🇨🇦 中转 🇨🇦 Canada 04 @nodpai, server: dx.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇺🇸 中转 🇺🇸 United States 22 @nodpai, server: gg.58n.net, port: 14846, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: x46.flybar.work, skip-cert-verify: true}
-  - {name: 🇺🇸 中转 🇺🇸 United States 23 @nodpai, server: gg.58n.net, port: 20296, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z296.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇭🇺 Hungary 02 @nodpai, server: zzzz.meiyiss.club, port: 32202, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇺🇸 中转 🇺🇸 United States 24 @nodpai, server: 198.2.197.74, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693304091037}}
-  - {name: 🇺🇸 中转 🇺🇸 United States 25 @nodpai, server: gg.58n.net, port: 20288, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z288.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇩🇪 Germany 06 @nodpai, server: 104.21.16.131, port: 443, type: vmess, uuid: f9919381-e43b-40fb-a951-de98c0785bcf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /speedtest}}
-  - {name: 🇺🇸 United States 26 @nodpai, server: 142.4.110.45, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693650902893}}
-  - {name: 🇺🇸 中转 🇺🇸 United States 27 @nodpai, server: gg.58n.net, port: 56783, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z266.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇺🇸 United States 28 @nodpai, server: 142.4.110.43, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693390440063}}
-  - {name: 🇺🇸 United States 29 @nodpai, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914}}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 01 @nodpai, server: 8.v2-ray.cyou, port: 23608, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 中转 🇨🇦 Canada 03 @nodpai, server: lt.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇨🇦 中转 🇨🇦 Canada 04 @nodpai, server: lt.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 United States 18 @nodpai, server: 108.186.192.252, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1692873927587}}
+  - {name: Viet Nam 01 @nodpai, server: 103.239.67.31, port: 443, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me}}
+  - {name: 🇨🇦 中转 🇨🇦 Canada 05 @nodpai, server: dx.ktmwan.top, port: 27256, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇳🇱 Netherlands 01 @nodpai, server: 156.225.67.132, port: 443, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693219483885}}
+  - {name: 🇺🇸 United States 19 @nodpai, server: 107.148.22.164, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/322100201000}}
+  - {name: 🇩🇪 Germany 05 @nodpai, server: 172.67.184.149, port: 8443, type: vmess, uuid: f616e080-307f-4b03-8106-a5113c84835c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 United States 20 @nodpai, server: 107.149.197.33, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/232714210719}}
+  - {name: 🇳🇱 Netherlands 02 @nodpai, server: 156.225.67.157, port: 443, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693650902893}}
   - {name: Viet Nam 02 @nodpai, server: vn4.4gspeed.me, port: 80, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn4.4gspeed.me}}}
-  - {name: 🇺🇸 United States 30 @nodpai, server: microsoftdebug.com, port: 80, type: vmess, uuid: 33360da0-4924-444c-8321-510879bc6664, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: microsoftdebug.com}}}
-  - {name: 中转 🇻🇳 Viet Nam 03 @nodpai, server: xxx1.meiyiss.club, port: 34102, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇺🇸 United States 31 @nodpai, server: 172.67.131.151, port: 80, type: vmess, uuid: 33360da0-4924-444c-8321-510879bc6664, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /windows7.ios}}
-  - {name: Viet Nam 04 @nodpai, server: vn5.4gspeed.me, port: 443, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
-  - {name: 🇺🇸 United States 32 @nodpai, server: 172.67.59.121, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇺🇸 United States 33 @nodpai, server: 172.67.118.244, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇸🇬 Singapore 18 @nodpai, server: singapore1145141.baiduvideos.online, port: 80, type: vmess, uuid: ae8f1cc9-2f13-4043-bd55-c83cbb64610d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /114514, headers: {Host: singapore1145141.baiduvideos.online}}}
-  - {name: 🇿🇦 South Africa 02 @nodpai, server: zzzz.meiyiss.club, port: 32803, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇷🇴 Romania 02 @nodpai, server: zzzz.meiyiss.club, port: 32802, type: ss, cipher: aes-128-gcm, password: 4d620acb-ee05-44ab-86e5-2d7bcbbd20aa}
-  - {name: 🇧🇷 Brazil 01 @nodpai, server: 172.64.199.158, port: 80, type: vmess, uuid: 2e495227-58e3-4bea-a273-7a17bd8a804b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 United States 34 @nodpai, server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇺🇸 United States 35 @nodpai, server: stock.hostmonit.com, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/@yzcjd/64fb4a7d30294/, headers: {Host: stock.hostmonit.com}}}
-  - {name: 🇷🇴 中转 🇷🇴 Romania 03 @nodpai, server: hefei.chiguayun.cc, port: 27126, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇩🇪 Germany 07 @nodpai, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 81fc114e-44d7-44c7-9912-942453b03154, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}}
-  - {name: 🇺🇸 United States 36 @nodpai, server: 8.222.162.31, port: 2082, type: vmess, uuid: 0917a3e2-9883-42aa-9b91-38049d9a6d12, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hostodo}}
-  - {name: Viet Nam 05 @nodpai, server: tokyo.mfa.ee, port: 2052, type: vmess, uuid: 992889a7-296e-4a44-98c2-0eb89af4411d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: tokyo.mfa.ee}}}
-  - {name: 🇸🇬 Singapore 19 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇺🇸 United States 21 @nodpai, server: 7263join.outline-vpn.cloud, port: 45592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: Viet Nam 03 @nodpai, server: vn5.4gspeed.me, port: 443, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me, headers: {Host: vn5.4gspeed.me}}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 22 @nodpai, server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}}
+  - {name: 🇳🇱 Netherlands 03 @nodpai, server: 154.84.1.11, port: 443, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693564312893}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 23 @nodpai, server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}}
+  - {name: 🇺🇸 United States 24 @nodpai, server: 172.67.83.191, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇩🇪 中转 🇩🇪 Germany 06 @nodpai, server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 18 @nodpai, server: fs.xianyuwangluo.cyou, port: 27201, type: ss, cipher: chacha20-ietf-poly1305, password: 2a23c437-de2c-47e3-b779-fb1d2289578f}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 08 @nodpai, server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}}
   - {name: 🇨🇭 中转 🇨🇭 Switzerland 01 @nodpai, server: foshan.chiguayun.cc, port: 27119, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 United States 37 @nodpai, server: 172.67.83.191, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇧🇬 中转 🇧🇬 Bulgaria 01 @nodpai, server: hefei.chiguayun.cc, port: 27127, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 20 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 09 @nodpai, server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 17f2360a-d545-36e2-b840-7f70bb0083dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}}
+  - {name: 🇺🇸 United States 25 @nodpai, server: 47.74.43.95, port: 2082, type: vmess, uuid: 0917a3e2-9883-42aa-9b91-38049d9a6d12, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hostodo}}
+  - {name: 🇷🇴 中转 🇷🇴 Romania 01 @nodpai, server: hefei.chiguayun.cc, port: 27126, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇩🇪 Germany 07 @nodpai, server: dx1.992688.xyz, port: 8880, type: vmess, uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dx1.992688.xyz}}}
+  - {name: 🇸🇬 Singapore 19 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 20 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 21 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 22 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 23 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 24 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 8e6f2dc7eb9f9a13, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 25 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 26 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 27 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 28 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 29 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 30 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 31 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 32 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 33 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 34 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 35 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 36 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 37 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 38 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 39 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 70face6dd320ea29, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 40 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
   - {name: 🇷🇺 中转 🇷🇺 Russia 01 @nodpai, server: foshan.chiguayun.cc, port: 27116, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 United States 38 @nodpai, server: 172.64.105.187, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇱🇺 Luxembourg 01 @nodpai, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zfc.windowsupdate1.com}}}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 06 @nodpai, server: gg.58n.net, port: 25238, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z267.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇦🇺 中转 🇦🇺 Australia 05 @nodpai, server: lt.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
-  - {name: 🇳🇱 中转 🇳🇱 Netherlands 04 @nodpai, server: hefei.chiguayun.cc, port: 27117, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 21 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 07 @nodpai, server: gg.58n.net, port: 11215, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z268.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 22 @nodpai, server: dx.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 08 @nodpai, server: gg.58n.net, port: 20298, type: trojan, password: 4051a0b4-ac35-3f23-aef9-0d695b74c438, sni: z298.hongkongnode.top, skip-cert-verify: true}
-  - {name: 🇺🇸 United States 39 @nodpai, server: 137.175.41.198, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693650902893}}
+  - {name: 🇸🇬 Singapore 41 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 42 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 43 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 44 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 45 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 46 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 47 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 48 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 49 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 50 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 51 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 70face6dd320ea29, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 52 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 111b927ef6be6671, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 53 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 70face6dd320ea29, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 54 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 55 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 56 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 57 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 58 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 59 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 111b927ef6be6671, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 60 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 61 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 70face6dd320ea29, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 62 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 63 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 64 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 65 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 66 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 67 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 68 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 111b927ef6be6671, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 69 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 70 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 71 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 111b927ef6be6671, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 72 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 73 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 74 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 75 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 76 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 77 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 78 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 79 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 80 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 81 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇺🇸 United States 26 @nodpai, server: js.bfyun.eu.org, port: 2082, type: vmess, uuid: 0917a3e2-9883-42aa-9b91-38049d9a6d12, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hostodo, headers: {Host: js.bfyun.eu.org}}}
+  - {name: 🇸🇬 Singapore 82 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 83 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 8e6f2dc7eb9f9a13, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 84 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 7b06d22a8a7c764f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 85 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 70face6dd320ea29, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 86 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 87 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 182228812d1e0f23, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 88 @nodpai, server: 5.44.249.44, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 89 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇹🇭 中转 🇹🇭 Thailand 01 @nodpai, server: foshan.chiguayun.cc, port: 27115, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇸🇬 Singapore 90 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 91 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 92 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 93 @nodpai, server: 5.44.249.53, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 94 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 95 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 96 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 97 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 71bb6fb9141f3618, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 98 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 99 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 100 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 70face6dd320ea29, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 101 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 102 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 103 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 2a5ccc8198d4af09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 104 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 105 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 7ac49a893e0bd10c, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 106 @nodpai, server: 5.44.249.50, port: 3306, type: trojan, password: 182228812d1e0f23, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 107 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: b09d2aaa443af97a, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 108 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 109 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: 8e6f2dc7eb9f9a13, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 110 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 111 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 8e6f2dc7eb9f9a13, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 112 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 113 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 3febb05ea76a940f, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 114 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: d02058f4f819dced, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 115 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 116 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 6c8b18adb11737af, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 117 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇺🇸 United States 27 @nodpai, server: 172.67.211.251, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇸🇬 Singapore 118 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 0cc6b4268dea0ba8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 119 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 5227e84e4f026b71, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 120 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 111b927ef6be6671, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 121 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 182228812d1e0f23, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
   - {name: 🇦🇹 中转 🇦🇹 Austria 01 @nodpai, server: foshan.chiguayun.cc, port: 27137, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇸🇬 Singapore 23 @nodpai, server: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 80, type: vmess, uuid: 0baaf014-af04-4028-be53-f5c75bb276ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 08 @nodpai, server: dx.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇦🇺 中转 🇦🇺 Australia 06 @nodpai, server: yd.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇭🇰 Hong Kong 19 @nodpai, server: hk2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a04922f6-5766-49ba-d9fb-8aba40f49277, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: hk2.mianfenyun012.eu.org}}}
-  - {name: 🇯🇵 Japan 09 @nodpai, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 09 @nodpai, server: yd.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
-  - {name: 🇺🇸 United States 40 @nodpai, server: 172.67.15.189, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇭🇰 Hong Kong 20 @nodpai, server: 42.3.62.74, port: 443, type: trojan, password: 8196dd4b-513f-4b2d-8631-56a4f0c8597d, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 24 @nodpai, server: 110.72.99.118, port: 3306, type: trojan, password: 8b475d9e868e43e0, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇯🇵 Japan 10 @nodpai, server: jp6.lianpi.xyz, port: 23234, type: vmess, uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 Singapore 122 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 123 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 8e6f2dc7eb9f9a13, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 124 @nodpai, server: 60.248.114.188, port: 3306, type: trojan, password: 36fe28a331638747, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252fgateway%252fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 125 @nodpai, server: 5.44.249.43, port: 3306, type: trojan, password: 111b927ef6be6671, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇸🇬 Singapore 126 @nodpai, server: 5.44.249.52, port: 3306, type: trojan, password: 8a5360b3b31229d8, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: 🇮🇳 中转 🇮🇳 India 07 @nodpai, server: hefei.chiguayun.cc, port: 27103, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇸🇬 Singapore 127 @nodpai, server: 5.44.249.42, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%2Fgateway%2Fconnect", headers: {Host: n2.gladns.com}}}
+  - {name: Viet Nam 04 @nodpai, server: 103.239.67.2, port: 80, type: vmess, uuid: 89159225-9acc-419c-aa39-1940f8b792ab, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me}}
+  - {name: 🇺🇸 United States 28 @nodpai, server: 141.101.115.65, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇭🇰 Hong Kong 12 @nodpai, server: 42.3.62.74, port: 443, type: trojan, password: 8196dd4b-513f-4b2d-8631-56a4f0c8597d, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: Antarctica 01 @nodpai, server: antarctica.baiduvideos.online, port: 80, type: vmess, uuid: ae8f1cc9-2f13-4043-bd55-c83cbb64610d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /114514, headers: {Host: antarctica.baiduvideos.online}}}
+  - {name: 🇸🇬 Singapore 128 @nodpai, server: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 80, type: vmess, uuid: 0baaf014-af04-4028-be53-f5c75bb276ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: s1225.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
+  - {name: 🇺🇸 United States 29 @nodpai, server: 172.67.211.253, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker}}
+  - {name: 🇯🇵 Japan 02 @nodpai, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io}
   - {name: 🇬🇧 更多免费节点:https://rss.uk.to/, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
-  - {name: 🇺🇸 美国 CloudFlare节点 5, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 8a7d1fe3-bc74-414f-a987-3da8a4a9ab07, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}}
-  - {name: 🇸🇬 北京市+新国信通信有限公司, server: zjxc.pmxu.link, port: 42862, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇨🇳 浙江省金华市+移动, server: foshan.chiguayun.cc, port: 27116, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 162.159.247.47, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}}
-  - {name: 🇨🇳 上海市+电信, server: 101.91.116.224, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: cb7d98b3-c708-4a11-95fc-8d6a44eb3128}
-  - {name: 🇺🇸 美国 CloudFlare节点 7, server: singapore.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 172.64.169.211, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 9, server: stock.hostmonit.com, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshkit/@yzcjd/64fb4a7d30294/, headers: {Host: lb.vhax.net}}}
-  - {name: 🇨🇳 湖南省 移动, server: 120.226.50.93, port: 40702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇳 印度 v2rayfree.eu.org, server: 103.160.204.36, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 10, server: aaaa.wxx.gay, port: 443, type: vmess, uuid: aede6782-5057-11ee-a0a4-000017022008, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /look, headers: {Host: aaaa.wxx.gay}}}
-  - {name: 🇯🇵 日本东京 Oracle Cloud, server: rb.gougouvpn.xyz, port: 443, type: trojan, password: f73092f3-6a42-46a3-8953-c629620b8ef8}
-  - {name: 🇨🇳 安徽省+移动数据上网公共出口, server: hefei.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇨🇳 四川省泸州市+移动, server: 112.45.36.142, port: 44184, type: ss, cipher: chacha20-ietf-poly1305, password: 1623ddeb-165b-4845-86fc-a254a9464b04}
+  - {name: 🇨🇳 上海市+电信, server: shct.pmxu.link, port: 22177, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇨🇳 上海市+电信 2, server: shct.pmxu.link, port: 55906, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
   - {name: 🇸🇬 北京市新国信通信有限公司 1, server: zjxc.pmxu.link, port: 44361, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇸🇬 北京市新国信通信有限公司 2, server: zjxc.pmxu.link, port: 42862, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇫🇷 法国巴黎Online S.A.S 3, server: fra1.connecton.surf, port: 443, type: trojan, password: cc491f13e9}
-  - {name: 🇷🇺 俄罗斯  4, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 46caadb.f2.gladns.com}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 5, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
-  - {name: 🇺🇸 美国CloudFlare节点 6, server: stock.hostmonit.com, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lb.vhax.net}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 7, server: 104.27.193.64, port: 443, type: vmess, uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1, alterId: 0, cipher: auto, tls: true, servername: avaspeed.jetspeed.fun, network: ws, ws-opts: {path: /pDDgT3v8NaAJHFPuEaDfC8t, headers: {Host: avaspeed.jetspeed.fun}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 8, server: 104.31.16.68, port: 80, type: vmess, uuid: 9b66f5c7-cc71-4b72-8ad7-d136c1e95f71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fr1vm.cdn-03.live}}}
-  - {name: 🇺🇸 美国  9, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: vsg1.0bad.com}}}
-  - {name: 🇺🇸 美国CloudFlare节点 10, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 589612ae-ede2-494a-a0d4-6e4293040088, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}}
-  - {name: 🇨🇳 上海市电信 11, server: shct.pmxu.link, port: 55906, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
-  - {name: 🇺🇸 美国CloudFlare节点 12, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点(shopify) 13, server: 23.227.38.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 14, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}}
-  - {name: 🇺🇸 美国CloudFlare节点 15, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
-  - {name: 🇨🇳 安徽省亳州市移动 16, server: hefei.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇨🇳 安徽省亳州市移动 17, server: hefei.chiguayun.cc, port: 27117, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点 18, server: us01.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v1893298323Py, headers: {Host: us01.runba.gq}}}
-  - {name: 🇺🇸 美国CloudFlare公司CDN节点(shopify) 19, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3.freek1.xyz}}}
-  - {name: 亚太地区  20, server: 103.160.204.97, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
-  - {name: 🇦🇺 澳大利亚  21, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: f73092f3-6a42-46a3-8953-c629620b8ef8}
-  - {name: 🇺🇸 美国  22, server: rb.gougouvpn.xyz, port: 443, type: trojan, password: f73092f3-6a42-46a3-8953-c629620b8ef8}
-  - {name: 🇨🇳 浙江省金华市移动 23, server: foshan.chiguayun.cc, port: 27137, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 美国CloudFlare节点 24, server: us2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us2.mianfenyun012.eu.org}}}
-  - {name: 🇨🇳 广东省深圳市移动 25, server: rbaun-1079-v2-1.r-kcd-c.iote.bond, port: 29938, type: vmess, uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.cjhh.lol}}}
-  - {name: 🇺🇸 美国CloudFlare节点 26, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
+  - {name: 亚太地区  2, server: 103.160.204.8, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
+  - {name: 🇺🇸 美国CloudFlare节点 3, server: stock.hostmonit.com, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lb.vhax.net}}}
+  - {name: 亚太地区  4, server: 103.160.204.36, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: 🇨🇳 上海市电信 5, server: shct.pmxu.link, port: 22177, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇸🇬 北京市新国信通信有限公司 6, server: zjxc.pmxu.link, port: 42862, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇨🇳 安徽省亳州市移动 7, server: hefei.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点(shopify) 8, server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇪🇸 西班牙Arsys网络 9, server: sp1.connecton.surf, port: 443, type: trojan, password: 41dbabe59a}
+  - {name: 🇨🇳 上海市电信 10, server: shct.pmxu.link, port: 55906, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇺🇸 美国CloudFlare节点 11, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 12, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 13, server: cloudflare.piaole.me, port: 443, type: vmess, uuid: 3d80e1ff-2e9f-498b-8e13-5230e67b2be9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huawei, headers: {Host: cloudflare.piaole.me}}}
+  - {name: 🇺🇸 美国CloudFlare节点 14, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: 亚太地区  15, server: 103.160.204.97, port: 80, type: vmess, uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 2.wyhkaa0.gq}}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点(shopify) 16, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 3.freek1.xyz}}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 17, server: us01.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v1893298323Py, headers: {Host: us01.runba.gq}}}
+  - {name: 🇨🇳 广东省深圳市移动 18, server: rbaun-1079-v2-1.r-kcd-c.iote.bond, port: 29938, type: vmess, uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.cjhh.lol}}}
+  - {name: 🇺🇸 美国CloudFlare公司CDN节点 19, server: 104.27.193.64, port: 443, type: vmess, uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1, alterId: 0, cipher: auto, tls: true, servername: avaspeed.jetspeed.fun, network: ws, ws-opts: {path: /pDDgT3v8NaAJHFPuEaDfC8t, headers: {Host: avaspeed.jetspeed.fun}}}
   - {name: 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 1, server: zjxc.pmxu.link, port: 44361, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
   - {name: github.com/freefq - 亚太地区  2, server: 103.160.204.8, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 3, server: stock.hostmonit.com, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lb.vhax.net}}}
@@ -235,39 +280,39 @@ proxies:
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17, server: us01.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v1893298323Py, headers: {Host: us01.runba.gq}}}
   - {name: 🇨🇳 github.com/freefq - 广东省深圳市移动 18, server: rbaun-1079-v2-1.r-kcd-c.iote.bond, port: 29938, type: vmess, uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cdn.cjhh.lol}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19, server: 104.27.193.64, port: 443, type: vmess, uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1, alterId: 0, cipher: auto, tls: true, servername: avaspeed.jetspeed.fun, network: ws, ws-opts: {path: /pDDgT3v8NaAJHFPuEaDfC8t, headers: {Host: avaspeed.jetspeed.fun}}}
-  - {name: 🇪🇸 _CN_中国->🇪🇸_ES_西班牙, server: yidong.liulangdiqiu.cyou, port: 10720, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: yidong.liulangdiqiu.cyou, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: hefei.chiguayun.cc, port: 27133, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: 183.240.222.80, port: 2001, type: ss, cipher: chacha20-ietf-poly1305, password: 06ed361a-ce7a-4f63-954e-5f70be1669ea}
-  - {name: 🇺🇸 _US_美国, server: 172.64.133.137, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡, server: 104.31.16.196, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
+  - {name: 🇺🇸 _US_美国, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}}
+  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: zjxc.pmxu.link, port: 37377, type: ss, cipher: aes-256-gcm, password: YX3wgYWMpLKYEnho}
+  - {name: 🇹🇼 _CN_中国->🇹🇼_TW_台湾, server: 39.175.1.22, port: 38002, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 39.175.1.22, port: 31009, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇻🇳 _CN_中国->🇻🇳_VN_越南, server: 39.175.1.22, port: 33004, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: 39.175.1.22, port: 31005, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2, server: 39.175.1.22, port: 33001, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇹🇼 _CN_中国->🇹🇼_TW_台湾 2, server: 39.175.1.22, port: 38101, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: _CN_中国, server: foshan.chiguayun.cc, port: 27119, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇨🇦 _CA_加拿大, server: 23.227.39.82, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 2, server: us2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us2.mianfenyun012.eu.org}}}
+  - {name: 🇰🇷 _KR_韩国, server: 130.162.158.81, port: 80, type: vmess, uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 18.wyhkaa0.gq}}}
+  - {name: 🇭🇺 _CN_中国->🇭🇺_HU_匈牙利, server: 39.175.1.22, port: 35004, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: 39.175.1.22, port: 30005, type: trojan, password: daad7ae1-39cc-47da-ac65-29baf55e079d, sni: client.asucaeva.net, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 3, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: lt1.992688.xyz, port: 8880, type: vmess, uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: euserv2.vpn66.eu.org}}}
+  - {name: 🇨🇦 _CA_加拿大 2, server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 4, server: 104.31.16.46, port: 2082, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca5.tehme100.fun}}}
+  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 172.67.75.194, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
+  - {name: 🇺🇸 _US_美国 5, server: yd1.992688.xyz, port: 8880, type: vmess, uuid: e5f9073b-a23c-487f-b2a8-e5eb6abad21d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}}
+  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度, server: yd.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡 2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.acyun.tk}}}
+  - {name: _CN_中国 2, server: lt.ktmwan.top, port: 27257, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: yd.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: _CN_中国 3, server: yd.ktmwan.top, port: 27255, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
   - {name: 🇸🇬 _SG_新加坡, server: 13.212.81.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇧🇬 _CN_中国->🇧🇬_BG_保加利亚, server: hefei.chiguayun.cc, port: 27127, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 _US_美国 2, server: 172.64.198.36, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: us01.runba.gq, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v1893298323Py, headers: {Host: us01.runba.gq}}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: foshan.chiguayun.cc, port: 27137, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇯🇵 _JP_日本, server: 18.181.170.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇺🇸 _US_美国->🇮🇷_IR_伊朗, server: 104.27.193.64, port: 443, type: vmess, uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /pDDgT3v8NaAJHFPuEaDfC8t, headers: {Host: avaspeed.jetspeed.fun}}}
-  - {name: 🇨🇦 _CN_中国->🇨🇦_CA_加拿大, server: yidong.liulangdiqiu.cyou, port: 10711, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
-  - {name: 🇭🇰 _HK_香港->🇨🇦_CA_加拿大, server: 103.160.204.8, port: 80, type: vmess, uuid: 65d2b6ea-8c03-439d-bbb3-5f9a5f44c33c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 10.wyhkaa0.gq}}}
-  - {name: 🇰🇷 _CN_中国->🇰🇷_KR_韩国, server: yidong.liulangdiqiu.cyou, port: 10702, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
-  - {name: 🇰🇷 _KR_韩国->🇧🇷_BR_巴西, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: f73092f3-6a42-46a3-8953-c629620b8ef8}
-  - {name: 🇺🇸 _US_美国 3, server: 104.31.16.68, port: 80, type: vmess, uuid: 9b66f5c7-cc71-4b72-8ad7-d136c1e95f71, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fr1vm.cdn-03.live}}}
-  - {name: 🇸🇦 _CN_中国->🇸🇦_SA_沙特阿拉伯, server: yidong.liulangdiqiu.cyou, port: 10721, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
-  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度, server: yidong.liulangdiqiu.cyou, port: 10706, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
-  - {name: 🇳🇱 _CN_中国->🇳🇱_NL_荷兰, server: hefei.chiguayun.cc, port: 27117, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
-  - {name: 🇺🇸 _US_美国 4, server: 104.27.11.243, port: 2095, type: vmess, uuid: a04e2923-1a96-4998-ec89-2634f7197ebf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: 12.wyhkaa0.gq}}}
-  - {name: 🇺🇸 _US_美国 5, server: cloudconeaaa.gorgorchicken.one, port: 8443, type: vmess, uuid: 1cec1ebc-b489-4769-f2d9-e079b5832a60, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /cloudconeaaa, headers: {Host: cloudconeaaa.gorgorchicken.one}}}
-  - {name: 🇭🇰 _HK_香港, server: hk01.isddns.tk, port: 443, type: vmess, uuid: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: hk01.isddns.tk}}}
-  - {name: 🇨🇦 _CA_加拿大, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 87a95522-985c-4a17-afea-9b7d7208bce5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 3.freek1.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇨🇳_CN_中国, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}}
-  - {name: 🇭🇰 _HK_香港->🇺🇸_US_美国, server: 103.160.204.31, port: 2052, type: vmess, uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /blue99, headers: {Host: ecc.vtcss.top}}}
-  - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港 2, server: 120.226.50.93, port: 42055, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: ns1.v2-vip.fun, port: 8880, type: vmess, uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY, headers: {Host: fr7.tehme100.fun}}}
-  - {name: 🇨🇦 _CA_加拿大 2, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 6, server: us2.mianfenyun012.eu.org, port: 8080, type: vmess, uuid: a8966719-aeaf-4886-d202-72f75f845b83, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jdbp606, headers: {Host: us2.mianfenyun012.eu.org}}}
-  - {name: 🇨🇦 _CA_加拿大 3, server: 23.227.38.81, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}}
-  - {name: 🇺🇸 _US_美国 7, server: 172.64.169.211, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
-  - {name: 🇺🇸 _US_美国 8, server: 172.64.103.88, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: _CN_中国 4, server: dx.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: _CN_中国 5, server: lt.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: 🇺🇸 _US_美国 6, server: 172.64.133.137, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.scproxy.top}}}
+  - {name: 🇮🇳 _CN_中国->🇮🇳_IN_印度 2, server: dx.ktmwan.top, port: 27252, type: ss, cipher: chacha20-ietf-poly1305, password: 1bb0f9bd-3f5b-441a-aad6-3709459e0400}
+  - {name: _CN_中国 6, server: dx.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: eaf40bd3-0e42-45d4-8b12-62268c86db11}
+  - {name: 🇭🇰 _US_美国->🇭🇰_HK_香港, server: 172.67.188.127, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou}}}
   - {name: 🇦🇷 Relay 🇦🇷 Argentina 01 TG:@SSRSUB, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 41804, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
   - {name: 🇦🇷 Relay 🇦🇷 Argentina(ChatGPT) 02 TG:@SSRSUB, server: gy.linghun3.xyz, port: 40063, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇦🇺 Relay 🇦🇺 Australia(ChatGPT) 01 TG:@SSRSUB, server: gy.linghun3.xyz, port: 40069, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
@@ -415,16 +460,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 北京市 新国信通信有限公司
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇸🇬 北京市 新国信通信有限公司 2
-      - 🇺🇸 美国 CloudFlare节点 2
-      - 🇨🇳 广东省深圳市 移动
+      - 🇨🇳 四川省泸州市 移动
       - 🇨🇳 上海市 电信
-      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
       - 🇨🇳 上海市 电信 2
-      - 🇺🇸 美国 CloudFlare节点 3
-      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
       - 🇭🇰 「节点冠名招商 @nodpai」🇭🇰 HK 01
       - 🇭🇰 「蛋挞云,流媒体全解锁」🇭🇰 HK 02
       - 🇭🇰 「eggtartcloud.shop 自选入口,速度保证」🇭🇰 HK 03
@@ -433,200 +473,250 @@ proxy-groups:
       - 🇭🇰 中转 🇭🇰 Hong Kong 06 @nodpai
       - 🇭🇰 中转 🇭🇰 Hong Kong 07 @nodpai
       - 🇭🇰 中转 🇭🇰 Hong Kong 08 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 09 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 10 @nodpai
       - 🇸🇬 Singapore 01 @nodpai
-      - 🇸🇬 Singapore 02 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 02 @nodpai
       - 🇸🇬 Singapore 03 @nodpai
-      - 🇸🇬 Singapore 04 @nodpai
-      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇺🇸 United States 01 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 05 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 06 @nodpai
-      - 🇰🇷 South Korea 01 @nodpai
-      - 🇹🇭 中转 🇹🇭 Thailand 01 @nodpai
-      - 🇰🇷 South Korea 02 @nodpai
-      - 🇺🇸 United States 02 @nodpai
-      - 🇰🇷 South Korea 03 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 01 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 11 @nodpai
-      - 🇭🇰 Hong Kong 12 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 07 @nodpai
-      - 🇦🇺 中转 🇦🇺 Australia 01 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 02 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 03 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 13 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 04 @nodpai
-      - 🇭🇰 Hong Kong 14 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 09 @nodpai
-      - 🇭🇰 Hong Kong 15 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 16 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 10 @nodpai
-      - 🇦🇺 中转 🇦🇺 Australia 02 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 11 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 17 @nodpai
-      - 🇯🇵 Japan 03 @nodpai
-      - 🇦🇺 中转 🇦🇺 Australia 03 @nodpai
-      - 🇯🇵 Japan 04 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 03 @nodpai
-      - 🇸🇬 Singapore 12 @nodpai
-      - 🇸🇬 Singapore 13 @nodpai
-      - 🇸🇬 Singapore 14 @nodpai
-      - 🇺🇸 United States 04 @nodpai
-      - 🇰🇷 中转 🇰🇷 South Korea 04 @nodpai
-      - 🇦🇺 中转 🇦🇺 Australia 04 @nodpai
-      - 🇭🇺 中转 🇭🇺 Hungary 01 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 05 @nodpai
-      - 🇵🇱 中转 🇵🇱 Poland 01 @nodpai
-      - 🇹🇭 中转 🇹🇭 Thailand 02 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 18 @nodpai
-      - 🇸🇬 Singapore 15 @nodpai
-      - 🇯🇵 Japan 05 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 16 @nodpai
-      - 🇫🇷 中转 🇫🇷 France 01 @nodpai
-      - 🇮🇳 中转 🇮🇳 India 06 @nodpai
-      - 🇹🇼 中转 🇹🇼 Taiwan 01 @nodpai
-      - 🇹🇭 Thailand 03 @nodpai
-      - 🇫🇷 中转 🇫🇷 France 02 @nodpai
       - 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai
-      - 🇩🇪 中转 🇩🇪 Germany 01 @nodpai
-      - 🇺🇸 United States 05 @nodpai
-      - 🇺🇸 United States 06 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 05 @nodpai
+      - 🇺🇸 United States 01 @nodpai
+      - 🇸🇬 Singapore 06 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 07 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai
+      - 🇺🇸 United States 02 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 09 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 01 @nodpai
+      - 🇺🇸 United States 03 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 09 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 02 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 10 @nodpai
+      - 🇰🇷 South Korea 01 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 10 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 03 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 11 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 04 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 12 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 13 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 14 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 15 @nodpai
+      - 🇰🇷 South Korea 02 @nodpai
+      - 🇺🇸 United States 04 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 05 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 06 @nodpai
+      - 🇰🇷 South Korea 03 @nodpai
+      - 🇦🇺 中转 🇦🇺 Australia 01 @nodpai
+      - 🇦🇺 中转 🇦🇺 Australia 02 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 01 @nodpai
+      - 🇭🇰 Hong Kong 11 @nodpai
+      - 🇸🇬 Singapore 16 @nodpai
+      - 🇸🇬 Singapore 17 @nodpai
+      - 🇦🇺 中转 🇦🇺 Australia 03 @nodpai
+      - 🇦🇺 中转 🇦🇺 Australia 04 @nodpai
+      - 🇦🇺 中转 🇦🇺 Australia 05 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 02 @nodpai
       - 🇬🇧 中转 🇬🇧 United Kingdom 02 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 03 @nodpai
+      - 🇬🇧 中转 🇬🇧 United Kingdom 03 @nodpai
+      - 🇦🇺 中转 🇦🇺 Australia 06 @nodpai
+      - 🇺🇸 United States 05 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 04 @nodpai
+      - 🇺🇸 United States 06 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 05 @nodpai
+      - 🇺🇸 United States 07 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 06 @nodpai
+      - 🇬🇧 中转 🇬🇧 United Kingdom 04 @nodpai
+      - 🇺🇸 United States 08 @nodpai
+      - 🇩🇪 中转 🇩🇪 Germany 01 @nodpai
+      - 🇺🇸 United States 09 @nodpai
+      - 🇬🇧 中转 🇬🇧 United Kingdom 05 @nodpai
+      - 🇬🇧 中转 🇬🇧 United Kingdom 06 @nodpai
       - 🇩🇪 中转 🇩🇪 Germany 02 @nodpai
       - 🇩🇪 中转 🇩🇪 Germany 03 @nodpai
-      - 🇺🇸 United States 07 @nodpai
-      - 🇫🇷 中转 🇫🇷 France 03 @nodpai
-      - 🇺🇸 United States 08 @nodpai
+      - 🇫🇷 中转 🇫🇷 France 07 @nodpai
       - 🇩🇪 中转 🇩🇪 Germany 04 @nodpai
-      - 🇺🇸 United States 09 @nodpai
-      - 🇰🇷 中转 🇰🇷 South Korea 05 @nodpai
-      - 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 10 @nodpai
       - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
-      - 🇬🇧 中转 🇬🇧 United Kingdom 03 @nodpai
-      - 🇷🇴 中转 🇷🇴 Romania 01 @nodpai
-      - 🇬🇧 中转 🇬🇧 United Kingdom 04 @nodpai
-      - 🇩🇪 中转 🇩🇪 Germany 05 @nodpai
-      - 🇨🇦 中转 🇨🇦 Canada 01 @nodpai
-      - 🇬🇧 中转 🇬🇧 United Kingdom 05 @nodpai
-      - Viet Nam 01 @nodpai
       - 🇺🇸 中转 🇺🇸 United States 12 @nodpai
-      - 🇺🇸 United States 13 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 14 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 15 @nodpai
-      - 🇯🇵 中转 🇯🇵 Japan 06 @nodpai
-      - 🇯🇵 中转 🇯🇵 Japan 07 @nodpai
-      - 🇺🇸 United States 16 @nodpai
-      - 🇨🇦 中转 🇨🇦 Canada 02 @nodpai
-      - 🇿🇦 中转 🇿🇦 South Africa 01 @nodpai
-      - 🇨🇦 中转 🇨🇦 Canada 03 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 17 @nodpai
-      - 🇺🇸 United States 18 @nodpai
-      - 🇺🇸 United States 19 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 17 @nodpai
-      - 🇳🇱 Netherlands 01 @nodpai
-      - 🇳🇱 Netherlands 02 @nodpai
-      - 🇵🇱 Poland 02 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 20 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 21 @nodpai
-      - 🇳🇱 Netherlands 03 @nodpai
-      - 🇨🇦 中转 🇨🇦 Canada 04 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 22 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 23 @nodpai
-      - 🇭🇺 Hungary 02 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 24 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 25 @nodpai
-      - 🇩🇪 Germany 06 @nodpai
-      - 🇺🇸 United States 26 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 27 @nodpai
-      - 🇺🇸 United States 28 @nodpai
-      - 🇺🇸 United States 29 @nodpai
-      - Viet Nam 02 @nodpai
-      - 🇺🇸 United States 30 @nodpai
-      - 中转 🇻🇳 Viet Nam 03 @nodpai
-      - 🇺🇸 United States 31 @nodpai
-      - Viet Nam 04 @nodpai
-      - 🇺🇸 United States 32 @nodpai
-      - 🇺🇸 United States 33 @nodpai
-      - 🇸🇬 Singapore 18 @nodpai
-      - 🇿🇦 South Africa 02 @nodpai
-      - 🇷🇴 Romania 02 @nodpai
-      - 🇧🇷 Brazil 01 @nodpai
-      - 🇺🇸 United States 34 @nodpai
-      - 🇺🇸 United States 35 @nodpai
-      - 🇷🇴 中转 🇷🇴 Romania 03 @nodpai
-      - 🇩🇪 Germany 07 @nodpai
-      - 🇺🇸 United States 36 @nodpai
-      - Viet Nam 05 @nodpai
-      - 🇸🇬 Singapore 19 @nodpai
-      - 🇨🇭 中转 🇨🇭 Switzerland 01 @nodpai
-      - 🇺🇸 United States 37 @nodpai
-      - 🇧🇬 中转 🇧🇬 Bulgaria 01 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 20 @nodpai
-      - 🇷🇺 中转 🇷🇺 Russia 01 @nodpai
-      - 🇺🇸 United States 38 @nodpai
-      - 🇱🇺 Luxembourg 01 @nodpai
-      - 🇬🇧 中转 🇬🇧 United Kingdom 06 @nodpai
-      - 🇦🇺 中转 🇦🇺 Australia 05 @nodpai
-      - 🇳🇱 中转 🇳🇱 Netherlands 04 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 21 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 13 @nodpai
+      - 🇨🇦 中转 🇨🇦 Canada 01 @nodpai
       - 🇬🇧 中转 🇬🇧 United Kingdom 07 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 22 @nodpai
-      - 🇯🇵 中转 🇯🇵 Japan 08 @nodpai
-      - 🇺🇸 United States 39 @nodpai
-      - 🇦🇹 中转 🇦🇹 Austria 01 @nodpai
-      - 🇸🇬 Singapore 23 @nodpai
+      - 🇰🇷 中转 🇰🇷 South Korea 04 @nodpai
+      - 🇺🇸 United States 14 @nodpai
+      - 🇨🇦 中转 🇨🇦 Canada 02 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 15 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 16 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 17 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇨🇦 中转 🇨🇦 Canada 03 @nodpai
+      - 🇨🇦 中转 🇨🇦 Canada 04 @nodpai
+      - 🇺🇸 United States 18 @nodpai
+      - Viet Nam 01 @nodpai
+      - 🇨🇦 中转 🇨🇦 Canada 05 @nodpai
+      - 🇳🇱 Netherlands 01 @nodpai
+      - 🇺🇸 United States 19 @nodpai
+      - 🇩🇪 Germany 05 @nodpai
+      - 🇺🇸 United States 20 @nodpai
+      - 🇳🇱 Netherlands 02 @nodpai
+      - Viet Nam 02 @nodpai
+      - 🇺🇸 United States 21 @nodpai
+      - Viet Nam 03 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 22 @nodpai
+      - 🇳🇱 Netherlands 03 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 23 @nodpai
+      - 🇺🇸 United States 24 @nodpai
+      - 🇩🇪 中转 🇩🇪 Germany 06 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 18 @nodpai
       - 🇬🇧 中转 🇬🇧 United Kingdom 08 @nodpai
-      - 🇦🇺 中转 🇦🇺 Australia 06 @nodpai
-      - 🇭🇰 Hong Kong 19 @nodpai
-      - 🇯🇵 Japan 09 @nodpai
+      - 🇨🇭 中转 🇨🇭 Switzerland 01 @nodpai
       - 🇬🇧 中转 🇬🇧 United Kingdom 09 @nodpai
-      - 🇺🇸 United States 40 @nodpai
-      - 🇭🇰 Hong Kong 20 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 24 @nodpai
-      - 🇯🇵 Japan 10 @nodpai
+      - 🇺🇸 United States 25 @nodpai
+      - 🇷🇴 中转 🇷🇴 Romania 01 @nodpai
+      - 🇩🇪 Germany 07 @nodpai
+      - 🇸🇬 Singapore 19 @nodpai
+      - 🇸🇬 Singapore 20 @nodpai
+      - 🇸🇬 Singapore 21 @nodpai
+      - 🇸🇬 Singapore 22 @nodpai
+      - 🇸🇬 Singapore 23 @nodpai
+      - 🇸🇬 Singapore 24 @nodpai
+      - 🇸🇬 Singapore 25 @nodpai
+      - 🇸🇬 Singapore 26 @nodpai
+      - 🇸🇬 Singapore 27 @nodpai
+      - 🇸🇬 Singapore 28 @nodpai
+      - 🇸🇬 Singapore 29 @nodpai
+      - 🇸🇬 Singapore 30 @nodpai
+      - 🇸🇬 Singapore 31 @nodpai
+      - 🇸🇬 Singapore 32 @nodpai
+      - 🇸🇬 Singapore 33 @nodpai
+      - 🇸🇬 Singapore 34 @nodpai
+      - 🇸🇬 Singapore 35 @nodpai
+      - 🇸🇬 Singapore 36 @nodpai
+      - 🇸🇬 Singapore 37 @nodpai
+      - 🇸🇬 Singapore 38 @nodpai
+      - 🇸🇬 Singapore 39 @nodpai
+      - 🇸🇬 Singapore 40 @nodpai
+      - 🇷🇺 中转 🇷🇺 Russia 01 @nodpai
+      - 🇸🇬 Singapore 41 @nodpai
+      - 🇸🇬 Singapore 42 @nodpai
+      - 🇸🇬 Singapore 43 @nodpai
+      - 🇸🇬 Singapore 44 @nodpai
+      - 🇸🇬 Singapore 45 @nodpai
+      - 🇸🇬 Singapore 46 @nodpai
+      - 🇸🇬 Singapore 47 @nodpai
+      - 🇸🇬 Singapore 48 @nodpai
+      - 🇸🇬 Singapore 49 @nodpai
+      - 🇸🇬 Singapore 50 @nodpai
+      - 🇸🇬 Singapore 51 @nodpai
+      - 🇸🇬 Singapore 52 @nodpai
+      - 🇸🇬 Singapore 53 @nodpai
+      - 🇸🇬 Singapore 54 @nodpai
+      - 🇸🇬 Singapore 55 @nodpai
+      - 🇸🇬 Singapore 56 @nodpai
+      - 🇸🇬 Singapore 57 @nodpai
+      - 🇸🇬 Singapore 58 @nodpai
+      - 🇸🇬 Singapore 59 @nodpai
+      - 🇸🇬 Singapore 60 @nodpai
+      - 🇸🇬 Singapore 61 @nodpai
+      - 🇸🇬 Singapore 62 @nodpai
+      - 🇸🇬 Singapore 63 @nodpai
+      - 🇸🇬 Singapore 64 @nodpai
+      - 🇸🇬 Singapore 65 @nodpai
+      - 🇸🇬 Singapore 66 @nodpai
+      - 🇸🇬 Singapore 67 @nodpai
+      - 🇸🇬 Singapore 68 @nodpai
+      - 🇸🇬 Singapore 69 @nodpai
+      - 🇸🇬 Singapore 70 @nodpai
+      - 🇸🇬 Singapore 71 @nodpai
+      - 🇸🇬 Singapore 72 @nodpai
+      - 🇸🇬 Singapore 73 @nodpai
+      - 🇸🇬 Singapore 74 @nodpai
+      - 🇸🇬 Singapore 75 @nodpai
+      - 🇸🇬 Singapore 76 @nodpai
+      - 🇸🇬 Singapore 77 @nodpai
+      - 🇸🇬 Singapore 78 @nodpai
+      - 🇸🇬 Singapore 79 @nodpai
+      - 🇸🇬 Singapore 80 @nodpai
+      - 🇸🇬 Singapore 81 @nodpai
+      - 🇺🇸 United States 26 @nodpai
+      - 🇸🇬 Singapore 82 @nodpai
+      - 🇸🇬 Singapore 83 @nodpai
+      - 🇸🇬 Singapore 84 @nodpai
+      - 🇸🇬 Singapore 85 @nodpai
+      - 🇸🇬 Singapore 86 @nodpai
+      - 🇸🇬 Singapore 87 @nodpai
+      - 🇸🇬 Singapore 88 @nodpai
+      - 🇸🇬 Singapore 89 @nodpai
+      - 🇹🇭 中转 🇹🇭 Thailand 01 @nodpai
+      - 🇸🇬 Singapore 90 @nodpai
+      - 🇸🇬 Singapore 91 @nodpai
+      - 🇸🇬 Singapore 92 @nodpai
+      - 🇸🇬 Singapore 93 @nodpai
+      - 🇸🇬 Singapore 94 @nodpai
+      - 🇸🇬 Singapore 95 @nodpai
+      - 🇸🇬 Singapore 96 @nodpai
+      - 🇸🇬 Singapore 97 @nodpai
+      - 🇸🇬 Singapore 98 @nodpai
+      - 🇸🇬 Singapore 99 @nodpai
+      - 🇸🇬 Singapore 100 @nodpai
+      - 🇸🇬 Singapore 101 @nodpai
+      - 🇸🇬 Singapore 102 @nodpai
+      - 🇸🇬 Singapore 103 @nodpai
+      - 🇸🇬 Singapore 104 @nodpai
+      - 🇸🇬 Singapore 105 @nodpai
+      - 🇸🇬 Singapore 106 @nodpai
+      - 🇸🇬 Singapore 107 @nodpai
+      - 🇸🇬 Singapore 108 @nodpai
+      - 🇸🇬 Singapore 109 @nodpai
+      - 🇸🇬 Singapore 110 @nodpai
+      - 🇸🇬 Singapore 111 @nodpai
+      - 🇸🇬 Singapore 112 @nodpai
+      - 🇸🇬 Singapore 113 @nodpai
+      - 🇸🇬 Singapore 114 @nodpai
+      - 🇸🇬 Singapore 115 @nodpai
+      - 🇸🇬 Singapore 116 @nodpai
+      - 🇸🇬 Singapore 117 @nodpai
+      - 🇺🇸 United States 27 @nodpai
+      - 🇸🇬 Singapore 118 @nodpai
+      - 🇸🇬 Singapore 119 @nodpai
+      - 🇸🇬 Singapore 120 @nodpai
+      - 🇸🇬 Singapore 121 @nodpai
+      - 🇦🇹 中转 🇦🇹 Austria 01 @nodpai
+      - 🇸🇬 Singapore 122 @nodpai
+      - 🇸🇬 Singapore 123 @nodpai
+      - 🇸🇬 Singapore 124 @nodpai
+      - 🇸🇬 Singapore 125 @nodpai
+      - 🇸🇬 Singapore 126 @nodpai
+      - 🇮🇳 中转 🇮🇳 India 07 @nodpai
+      - 🇸🇬 Singapore 127 @nodpai
+      - Viet Nam 04 @nodpai
+      - 🇺🇸 United States 28 @nodpai
+      - 🇭🇰 Hong Kong 12 @nodpai
+      - Antarctica 01 @nodpai
+      - 🇸🇬 Singapore 128 @nodpai
+      - 🇺🇸 United States 29 @nodpai
+      - 🇯🇵 Japan 02 @nodpai
       - 🇬🇧 更多免费节点:https://rss.uk.to/
-      - 🇺🇸 美国 CloudFlare节点 5
-      - 🇸🇬 北京市+新国信通信有限公司
-      - 🇨🇳 浙江省金华市+移动
-      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇨🇳 四川省泸州市+移动
       - 🇨🇳 上海市+电信
-      - 🇺🇸 美国 CloudFlare节点 7
-      - 🇺🇸 美国 CloudFlare节点 8
-      - 🇺🇸 美国 CloudFlare节点 9
-      - 🇨🇳 湖南省 移动
-      - 🇮🇳 印度 v2rayfree.eu.org
-      - 🇺🇸 美国 CloudFlare节点 10
-      - 🇯🇵 日本东京 Oracle Cloud
-      - 🇨🇳 安徽省+移动数据上网公共出口
+      - 🇨🇳 上海市+电信 2
       - 🇸🇬 北京市新国信通信有限公司 1
-      - 🇸🇬 北京市新国信通信有限公司 2
-      - 🇫🇷 法国巴黎Online S.A.S 3
-      - 🇷🇺 俄罗斯  4
-      - 🇺🇸 美国CloudFlare公司CDN节点 5
-      - 🇺🇸 美国CloudFlare节点 6
-      - 🇺🇸 美国CloudFlare公司CDN节点 7
-      - 🇺🇸 美国CloudFlare公司CDN节点 8
-      - 🇺🇸 美国  9
-      - 🇺🇸 美国CloudFlare节点 10
-      - 🇨🇳 上海市电信 11
-      - 🇺🇸 美国CloudFlare节点 12
-      - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 13
-      - 🇺🇸 美国CloudFlare公司CDN节点 14
-      - 🇺🇸 美国CloudFlare节点 15
-      - 🇨🇳 安徽省亳州市移动 16
-      - 🇨🇳 安徽省亳州市移动 17
-      - 🇺🇸 美国CloudFlare公司CDN节点 18
-      - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 19
-      - 亚太地区  20
-      - 🇦🇺 澳大利亚  21
-      - 🇺🇸 美国  22
-      - 🇨🇳 浙江省金华市移动 23
-      - 🇺🇸 美国CloudFlare节点 24
-      - 🇨🇳 广东省深圳市移动 25
-      - 🇺🇸 美国CloudFlare节点 26
+      - 亚太地区  2
+      - 🇺🇸 美国CloudFlare节点 3
+      - 亚太地区  4
+      - 🇨🇳 上海市电信 5
+      - 🇸🇬 北京市新国信通信有限公司 6
+      - 🇨🇳 安徽省亳州市移动 7
+      - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 8
+      - 🇪🇸 西班牙Arsys网络 9
+      - 🇨🇳 上海市电信 10
+      - 🇺🇸 美国CloudFlare节点 11
+      - 🇺🇸 美国CloudFlare公司CDN节点 12
+      - 🇺🇸 美国CloudFlare公司CDN节点 13
+      - 🇺🇸 美国CloudFlare节点 14
+      - 亚太地区  15
+      - 🇺🇸 美国CloudFlare公司CDN节点(shopify) 16
+      - 🇺🇸 美国CloudFlare公司CDN节点 17
+      - 🇨🇳 广东省深圳市移动 18
+      - 🇺🇸 美国CloudFlare公司CDN节点 19
       - 🇸🇬 github.com/freefq - 北京市新国信通信有限公司 1
       - github.com/freefq - 亚太地区  2
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 3
@@ -646,39 +736,39 @@ proxy-groups:
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 17
       - 🇨🇳 github.com/freefq - 广东省深圳市移动 18
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
-      - 🇪🇸 _CN_中国->🇪🇸_ES_西班牙
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
       - 🇺🇸 _US_美国
-      - 🇸🇬 _SG_新加坡
-      - 🇧🇬 _CN_中国->🇧🇬_BG_保加利亚
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 _US_美国->🇩🇪_DE_德国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇯🇵 _JP_日本
-      - 🇺🇸 _US_美国->🇮🇷_IR_伊朗
-      - 🇨🇦 _CN_中国->🇨🇦_CA_加拿大
-      - 🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-      - 🇰🇷 _CN_中国->🇰🇷_KR_韩国
-      - 🇰🇷 _KR_韩国->🇧🇷_BR_巴西
-      - 🇺🇸 _US_美国 3
-      - 🇸🇦 _CN_中国->🇸🇦_SA_沙特阿拉伯
-      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
-      - 🇳🇱 _CN_中国->🇳🇱_NL_荷兰
-      - 🇺🇸 _US_美国 4
-      - 🇺🇸 _US_美国 5
-      - 🇭🇰 _HK_香港
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+      - 🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国
+      - 🇻🇳 _CN_中国->🇻🇳_VN_越南
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
+      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2
+      - 🇹🇼 _CN_中国->🇹🇼_TW_台湾 2
+      - _CN_中国
       - 🇨🇦 _CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇳_CN_中国
-      - 🇭🇰 _HK_香港->🇺🇸_US_美国
-      - 🇭🇰 _CN_中国->🇭🇰_HK_香港 2
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
+      - 🇺🇸 _US_美国 2
+      - 🇰🇷 _KR_韩国
+      - 🇭🇺 _CN_中国->🇭🇺_HU_匈牙利
+      - 🇭🇰 _CN_中国->🇭🇰_HK_香港
+      - 🇺🇸 _US_美国 3
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇨🇦 _CA_加拿大 2
+      - 🇺🇸 _US_美国 4
+      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
+      - 🇺🇸 _US_美国 5
+      - 🇮🇳 _CN_中国->🇮🇳_IN_印度
+      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡 2
+      - _CN_中国 2
+      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
+      - _CN_中国 3
+      - 🇸🇬 _SG_新加坡
+      - _CN_中国 4
+      - _CN_中国 5
       - 🇺🇸 _US_美国 6
-      - 🇨🇦 _CA_加拿大 3
-      - 🇺🇸 _US_美国 7
-      - 🇺🇸 _US_美国 8
+      - 🇮🇳 _CN_中国->🇮🇳_IN_印度 2
+      - _CN_中国 6
+      - 🇭🇰 _US_美国->🇭🇰_HK_香港
       - 🇦🇷 Relay 🇦🇷 Argentina 01 TG:@SSRSUB
       - 🇦🇷 Relay 🇦🇷 Argentina(ChatGPT) 02 TG:@SSRSUB
       - 🇦🇺 Relay 🇦🇺 Australia(ChatGPT) 01 TG:@SSRSUB
