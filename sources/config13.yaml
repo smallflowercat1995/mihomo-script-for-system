@@ -4,160 +4,199 @@ allow-lan: false
 mode: Rule
 log-level: info
 proxies:
-  - {name: 🇺🇸 美国 CloudFlare节点, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM, server: 194.62.42.77, port: 80, type: vmess, uuid: 14665d49-17ee-4fd7-b1de-19d98e4b8e27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 香港 V2CROSS.COM, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
   - {name: 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房, server: 45.199.138.206, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 俄罗斯 V2CROSS.COM 2, server: v138a.ai88888.top, port: 2052, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: v138a.ai88888.top}}}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 2, server: 45.199.138.158, port: 48855, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇿🇦 南非 V2CROSS.COM, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 3, server: 45.199.138.162, port: 48112, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.221.18, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 172.67.93.134, port: 8880, type: vmess, uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}}
-  - {name: 🇿🇦 南非 V2CROSS.COM 2, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1692256902430}}
-  - {name: 🇨🇳 「节点冠名招商 @nodpai」🇨🇳 CN 01, server: 123.249.101.15, port: 19709, type: vmess, uuid: 2f278a45-940a-46c1-c886-77f3b2d33987, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇺🇸 「蛋挞云,流媒体全解锁」🇺🇸 US 01", server: 103.149.144.45, port: 19482, type: vmess, uuid: 50a170b7-1198-4603-e51a-0da28605d9e2, alterId: 0, cipher: auto, tls: false}
-  - {name: "🇭🇰 「eggtartcloud.shop 自选入口,速度保证」🇭🇰 HK 01", server: mf01fx.micloud.buzz, port: 46001, type: vmess, uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf01fx.micloud.buzz}}}
-  - {name: "🇺🇸 「蛋挞云,超低价格,超高体验」🇺🇸 US 02", server: 154.9.239.14, port: 9081, type: trojan, password: 9b62a45e-f14a-4379-a1fe-a741287bab56, sni: winfo.shop, skip-cert-verify: true}
-  - {name: 🇳🇱 Netherlands 01 @nodpai, server: 45.199.138.183, port: 35571, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands 02 @nodpai, server: 45.199.138.220, port: 55107, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands 03 @nodpai, server: 45.199.138.159, port: 38555, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States 03 @nodpai, server: 45.199.138.198, port: 58336, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands 04 @nodpai, server: 45.199.138.227, port: 46833, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 01 @nodpai, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
-  - {name: 🇳🇱 Netherlands 05 @nodpai, server: 45.199.138.225, port: 47905, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands 06 @nodpai, server: 45.199.138.157, port: 48855, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 Japan 01 @nodpai, server: direct-jp1.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-jp1.xn--pzypc.store}}}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 02 @nodpai, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
-  - {name: 🇳🇱 Netherlands 07 @nodpai, server: 45.199.138.151, port: 54127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 中转 🇯🇵 Japan 02 @nodpai, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: 30e169b0-90d9-4ef9-826c-229603cfa69f}
-  - {name: 🇸🇬 Singapore 03 @nodpai, server: 8.222.133.63, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048"}}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
-  - {name: 🇳🇱 Netherlands 08 @nodpai, server: 45.199.138.206, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States 04 @nodpai, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 中转 🇺🇸 United States 05 @nodpai, server: mf33fx.micloud.buzz, port: 46033, type: vmess, uuid: a824a85c-4bb0-4ab3-9d8a-bf9b02d9b20c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf33fx.micloud.buzz}}}
-  - {name: 🇺🇸 United States 06 @nodpai, server: 38.63.0.80, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
-  - {name: 🇺🇸 United States 07 @nodpai, server: 192.0.54.32, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048"}}
-  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai, server: mf01fx.micloud.buzz, port: 46001, type: vmess, uuid: bc230344-14d9-4922-9fb7-2e6513c5593e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf01fx.micloud.buzz}}}
-  - {name: 🇯🇵 Japan 03 @nodpai, server: direct-jp4.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-jp4.xn--pzypc.store}}}
-  - {name: 🇸🇬 Singapore 05 @nodpai, server: direct-sg2.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-sg2.xn--pzypc.store}}}
-  - {name: 🇹🇷 中转 🇹🇷 Turkey 01 @nodpai, server: 120.241.44.167, port: 32310, type: vmess, uuid: bca523eb-c95d-4d62-aab1-01c2c6c030d8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇸🇬 Singapore 06 @nodpai, server: direct-sg3.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-sg3.xn--pzypc.store}}}
-  - {name: 🇳🇱 Netherlands 09 @nodpai, server: 45.199.138.203, port: 41170, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States 08 @nodpai, server: direct-us3.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-us3.xn--pzypc.store}}}
-  - {name: 🇯🇵 Japan 04 @nodpai, server: 45.195.62.251, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048"}}
-  - {name: 🇸🇬 Singapore 07 @nodpai, server: direct-sg1.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-sg1.xn--pzypc.store}}}
-  - {name: 🇺🇸 United States 09 @nodpai, server: direct-us4.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-us4.xn--pzypc.store}}}
-  - {name: 🇺🇸 United States 10 @nodpai, server: 172.66.146.40, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048"}}
-  - {name: 🇺🇸 中转 🇺🇸 United States 11 @nodpai, server: mf33fx.micloud.buzz, port: 46033, type: vmess, uuid: bc230344-14d9-4922-9fb7-2e6513c5593e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf33fx.micloud.buzz}}}
-  - {name: 🇺🇸 United States 12 @nodpai, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914}}
-  - {name: 🇳🇱 Netherlands 10 @nodpai, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 United States 13 @nodpai, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694429908748}}
-  - {name: 🇭🇰 Hong Kong 03 @nodpai, server: direct-hk4.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/miku?ed=2048", headers: {Host: direct-hk4.xn--pzypc.store}}}
-  - {name: 🇭🇰 Hong Kong 04 @nodpai, server: direct-hk3.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/miku?ed=2048", headers: {Host: direct-hk3.xn--pzypc.store}}}
-  - {name: 🇺🇸 United States 14 @nodpai, server: 38.63.0.89, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691057598680}}
-  - {name: 🇳🇱 Netherlands 11 @nodpai, server: fd.shabijichang.com, port: 80, type: vmess, uuid: fac955ed-c390-4ca9-a716-5d9a2a6339c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fd.shabijichang.com}}}
-  - {name: 🇹🇷 中转 🇹🇷 Turkey 02 @nodpai, server: 120.233.42.62, port: 30010, type: ss, cipher: aes-256-gcm, password: bca523eb-c95d-4d62-aab1-01c2c6c030d8}
-  - {name: 🇪🇨 中转 🇪🇨 Ecuador 01 @nodpai, server: east.fastisgood.cc, port: 46310, type: ss, cipher: chacha20-ietf-poly1305, password: 73a742e0-99b5-4da1-9c40-2950868c30fe}
-  - {name: 🇺🇸 United States 15 @nodpai, server: direct-us2.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-us2.xn--pzypc.store}}}
-  - {name: 🇯🇵 Japan 05 @nodpai, server: direct-jp3.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-jp3.xn--pzypc.store}}}
-  - {name: 🇺🇸 United States 16 @nodpai, server: free2.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free2.6114514.xyz}}}
-  - {name: 🇺🇸 United States 17 @nodpai, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: 🇺🇸 United States 18 @nodpai, server: 192.200.160.91, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048"}}
-  - {name: 🇵🇪 中转 🇵🇪 Peru 01 @nodpai, server: east.fastisgood.cc, port: 46309, type: ss, cipher: chacha20-ietf-poly1305, password: 73a742e0-99b5-4da1-9c40-2950868c30fe}
-  - {name: 🇺🇸 United States 19 @nodpai, server: direct-us1.xn--pzypc.store, port: 80, type: vmess, uuid: ce1684b2-d62c-4439-ac27-5323853f30b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/akile?ed=2048", headers: {Host: direct-us1.xn--pzypc.store}}}
-  - {name: 🇺🇸 United States 20 @nodpai, server: 38.63.0.71, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/053133263111}}
-  - {name: 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai, server: starspeed.tbh.iosds.com, port: 26963, type: ss, cipher: chacha20-ietf-poly1305, password: 30e169b0-90d9-4ef9-826c-229603cfa69f}
-  - {name: 🇿🇦 中转 🇿🇦 South Africa 01 @nodpai, server: north.fastisgood.cc, port: 46401, type: ss, cipher: chacha20-ietf-poly1305, password: 73a742e0-99b5-4da1-9c40-2950868c30fe}
-  - {name: 🇳🇱 中转 🇳🇱 Netherlands 12 @nodpai, server: 14.18.108.108, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: nl01.lovehjq.xyz, skip-cert-verify: true}
-  - {name: 🇳🇬 中转 🇳🇬 Nigeria 01 @nodpai, server: north.fastisgood.cc, port: 46402, type: ss, cipher: chacha20-ietf-poly1305, password: 73a742e0-99b5-4da1-9c40-2950868c30fe}
-  - {name: 🇺🇸 United States 21 @nodpai, server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
-  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai, server: 120.233.42.62, port: 30007, type: ss, cipher: aes-256-gcm, password: bca523eb-c95d-4d62-aab1-01c2c6c030d8}
-  - {name: 🇺🇸 中转 🇺🇸 United States 22 @nodpai, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 30e169b0-90d9-4ef9-826c-229603cfa69f}
-  - {name: 🇺🇸 United States 23 @nodpai, server: 23.108.100.101, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
-  - {name: 🇺🇸 中转 🇺🇸 United States 24 @nodpai, server: 198.2.244.8, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
-  - {name: 🇳🇱 Netherlands 13 @nodpai, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684580752213}}
-  - {name: 🇺🇸 United States 25 @nodpai, server: free4.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free4.6114514.xyz}}}
-  - {name: 🇺🇸 United States 26 @nodpai, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914}}
-  - {name: 🇳🇱 Netherlands 14 @nodpai, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇳🇱 Netherlands 15 @nodpai, server: 154.85.1.129, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1685439562518}}
-  - {name: 🇨🇳 China 02 @nodpai, server: 137.175.69.209, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810}}
-  - {name: 🇺🇸 United States 27 @nodpai, server: 198.2.192.156, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
-  - {name: 🇺🇸 United States 28 @nodpai, server: 192.74.224.162, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: ef591064-640a-48e0-a511-623d5c0e67e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 67.21.84.164, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.82615355.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: xn.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xn.shabijichang.com}}}
+  - {name: 🇺🇸 美国 Cloudinnovation数据中心, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684580752213}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.20.224.95, port: 80, type: vmess, uuid: e6be60d7-8b79-4bd3-86ba-6291b1ead2f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
+  - {name: 🇺🇸 美国 Cloudinnovation数据中心 2, server: 154.85.1.244, port: 54982, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 73b0f320-7bda-47bf-bed3-b6438cc7a61f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: hdlb.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hdlb.shabijichang.com}}}
+  - {name: 🇿🇦 南非 V2CROSS.COM, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 「节点冠名招商 @nodpai」🇭🇰 HK 01, server: zfhk.magicby.top, port: 29158, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: "🇭🇰 「蛋挞云,流媒体全解锁」🇭🇰 HK 02", server: zfhk.magicby.top, port: 51353, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: "🇸🇬 「eggtartcloud.shop 自选入口,速度保证」🇸🇬 SG 01", server: fzltsg.magicby.top, port: 59370, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: "🇭🇰 「蛋挞云,超低价格,超高体验」🇭🇰 HK 03", server: hss1.zzjq.xyz, port: 11111, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 02 @nodpai, server: fzltsg.magicby.top, port: 47312, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇹🇼 中转 🇹🇼 Taiwan 01 @nodpai, server: fztw.magicby.top, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 04 @nodpai, server: hs2.zzjq.xyz, port: 34019, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 05 @nodpai, server: zfhk.magicby.top, port: 42291, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 06 @nodpai, server: starspeed.tbh.iosds.com, port: 47120, type: ss, cipher: chacha20-ietf-poly1305, password: e00a00ef-cea7-4036-99d3-6dcc6218301a}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 01 @nodpai, server: 29.kccic2pa.xyz, port: 50029, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 02 @nodpai, server: fzrb.magicby.top, port: 42966, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 03 @nodpai, server: fzltsg.magicby.top, port: 28222, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai, server: sgs1.zzjq.xyz, port: 36896, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 03 @nodpai, server: fzrb.magicby.top, port: 33175, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇺🇸 United States 01 @nodpai, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 04 @nodpai, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: e00a00ef-cea7-4036-99d3-6dcc6218301a}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 05 @nodpai, server: fzltsg.magicby.top, port: 38127, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 06 @nodpai, server: fzltsg.magicby.top, port: 44434, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇨🇳 China 01 @nodpai, server: 137.175.86.189, port: 37399, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 07 @nodpai, server: hs3.zzjq.xyz, port: 34229, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇺🇸 中转 🇺🇸 United States 02 @nodpai, server: tjcu-l6ftl9.zzcloud.top, port: 32006, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 05 @nodpai, server: jps1.zzjq.xyz, port: 35227, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇺🇸 中转 🇺🇸 United States 03 @nodpai, server: tjcu-l6ftl9.zzcloud.top, port: 15823, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 07 @nodpai, server: starspeed.tbh.iosds.com, port: 26963, type: ss, cipher: chacha20-ietf-poly1305, password: e00a00ef-cea7-4036-99d3-6dcc6218301a}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 08 @nodpai, server: hs1.zzjq.xyz, port: 34209, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 06 @nodpai, server: 18.kccic2pa.xyz, port: 50018, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇦🇹 中转 🇦🇹 Austria 01 @nodpai, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 中转 🇻🇳 Viet Nam 01 @nodpai, server: sdyd.ygdyf.com, port: 30535, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇺🇸 中转 🇺🇸 United States 04 @nodpai, server: tjcu-l6ftl9.zzcloud.top, port: 10783, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇳🇱 Netherlands 01 @nodpai, server: 45.199.138.227, port: 46833, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 02 @nodpai, server: 45.199.138.158, port: 48855, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 03 @nodpai, server: 45.199.138.233, port: 41478, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 04 @nodpai, server: 156.225.67.102, port: 52792, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 05 @nodpai, server: 45.199.138.203, port: 41170, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 06 @nodpai, server: 45.199.138.225, port: 47905, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 07 @nodpai, server: 45.199.138.159, port: 38555, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 08 @nodpai, server: 45.199.138.224, port: 31622, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 09 @nodpai, server: 45.199.138.151, port: 54127, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 中转 🇺🇸 United States 05 @nodpai, server: 05.kccic2pa.xyz, port: 50005, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 中转 🇩🇪 Germany 01 @nodpai, server: aliyun.ws, port: 17345, type: ss, cipher: chacha20-ietf-poly1305, password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4}
+  - {name: 🇳🇱 Netherlands 10 @nodpai, server: 45.199.138.162, port: 48112, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 11 @nodpai, server: 45.199.138.205, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 12 @nodpai, server: 45.199.138.206, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 13 @nodpai, server: 156.245.8.248, port: 41671, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 14 @nodpai, server: 45.199.138.189, port: 38387, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 中转 🇺🇸 United States 06 @nodpai, server: 01.kccic2pa.xyz, port: 50001, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai, server: aliyun.ws, port: 50647, type: ss, cipher: chacha20-ietf-poly1305, password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4}
+  - {name: 🇳🇱 Netherlands 15 @nodpai, server: 45.199.138.139, port: 38998, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
+  - {name: 🇺🇸 中转 🇺🇸 United States 07 @nodpai, server: 03.kccic2pa.xyz, port: 50003, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 08 @nodpai, server: 142.4.116.241, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
+  - {name: 🇳🇱 Netherlands 16 @nodpai, server: 45.199.138.183, port: 35571, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 09 @nodpai, server: 38.63.0.89, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1691057598680}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 10 @nodpai, server: 02.kccic2pa.xyz, port: 50002, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 中转 🇺🇸 United States 11 @nodpai, server: 04.kccic2pa.xyz, port: 50004, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 12 @nodpai, server: 38.63.0.80, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
+  - {name: 🇭🇰 Hong Kong 09 @nodpai, server: 185.214.103.89, port: 443, type: vmess, uuid: 553f0ec0-1af3-3a0c-ab4a-00d2f3ec670f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /db00}}
+  - {name: 🇬🇧 中转 🇬🇧 United Kingdom 02 @nodpai, server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 中转 🇩🇪 Germany 02 @nodpai, server: bd1.zzjq.xyz, port: 34509, type: ss, cipher: chacha20-ietf-poly1305, password: 6632e674-7ff0-43e0-9873-8041d726fa29}
+  - {name: 🇺🇸 中转 🇺🇸 United States 13 @nodpai, server: 199.188.107.153, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
+  - {name: 🇺🇸 United States 14 @nodpai, server: 192.74.228.188, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321}}
+  - {name: 🇳🇱 Netherlands 17 @nodpai, server: 45.199.138.157, port: 48855, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 中转 🇺🇸 United States 15 @nodpai, server: 198.2.244.27, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810}}
+  - {name: 🇺🇸 United States 16 @nodpai, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 中转 🇺🇸 United States 17 @nodpai, server: 12.kccic2pa.xyz, port: 50012, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 18 @nodpai, server: 38.63.0.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1689935243027}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 19 @nodpai, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: e00a00ef-cea7-4036-99d3-6dcc6218301a}
+  - {name: 🇦🇷 中转 🇦🇷 Argentina 01 @nodpai, server: tjcu-l6ftl9.zzcloud.top, port: 36504, type: ss, cipher: chacha20-ietf-poly1305, password: bda780e9-268c-4d98-b0b9-d74f52047b44}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 09 @nodpai, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 10 @nodpai, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
+  - {name: 🇭🇰 中转 🇭🇰 Hong Kong 10 @nodpai, server: 183.249.20.142, port: 61005, type: vmess, uuid: 553f0ec0-1af3-3a0c-ab4a-00d2f3ec670f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00}}
+  - {name: 🇺🇸 United States 20 @nodpai, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 21 @nodpai, server: 16.kccic2pa.xyz, port: 50016, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 中转 🇸🇬 Singapore 11 @nodpai, server: free.node.kk-proxy.pro, port: 24961, type: ss, cipher: chacha20-ietf-poly1305, password: 796154e3-c4cd-467a-a398-f39ae1090487}
+  - {name: 🇺🇸 中转 🇺🇸 United States 22 @nodpai, server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 23 @nodpai, server: 38.63.0.71, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/053133263111}}
+  - {name: 🇳🇱 Netherlands 18 @nodpai, server: 154.85.1.244, port: 54982, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 0, cipher: auto, tls: false}
+  - {name: United Arab Emirates 01 @nodpai, server: db.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db.shabijichang.com}}}
+  - {name: 🇨🇦 Canada 01 @nodpai, server: mtlr.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mtlr.shabijichang.com}}}
+  - {name: 🇳🇱 Netherlands 19 @nodpai, server: 45.199.138.229, port: 39661, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇦 Saudi Arabia 01 @nodpai, server: jd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jd.shabijichang.com}}}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 07 @nodpai, server: 39.164.141.104, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true}
+  - {name: 🇳🇱 Netherlands 20 @nodpai, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1692256902430}}
+  - {name: 🇭🇰 Hong Kong 11 @nodpai, server: 103.231.15.146, port: 443, type: ss, cipher: aes-256-gcm, password: cf79ef65c44a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: yjy4.viynos.com, path: /quykewbbt, tls: true, mux: true}}
+  - {name: 🇳🇱 Netherlands 21 @nodpai, server: 154.85.1.129, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1685439562518}}
+  - {name: 🇯🇵 中转 🇯🇵 Japan 08 @nodpai, server: zz.chaosu999.com, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true}
+  - {name: 🇳🇱 Netherlands 22 @nodpai, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684580752213}}
+  - {name: 🇺🇸 United States 24 @nodpai, server: 192.74.228.189, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695032909164}}
+  - {name: 🇳🇱 Netherlands 23 @nodpai, server: 156.245.8.144, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 24 @nodpai, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇳🇱 Netherlands 25 @nodpai, server: 156.245.8.145, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 25 @nodpai, server: zjg.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: zjg.shabijichang.com}}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 26 @nodpai, server: 06.kccic2pa.xyz, port: 50006, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 Hong Kong 12 @nodpai, server: yd.xingsu.fun, port: 80, type: vmess, uuid: e00a00ef-cea7-4036-99d3-6dcc6218301a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /xingsu, headers: {Host: yd.xingsu.fun}}}
+  - {name: 🇺🇸 United States 27 @nodpai, server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
+  - {name: 🇺🇸 中转 🇺🇸 United States 28 @nodpai, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: d2ffd60b-5caa-4b9d-930e-33e1924c864e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 United States 29 @nodpai, server: 23.108.100.101, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
+  - {name: 🇳🇱 Netherlands 26 @nodpai, server: 156.225.67.114, port: 443, type: vmess, uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050}}
+  - {name: 🇺🇸 United States 30 @nodpai, server: 38.26.135.18, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1693992821776}}
+  - {name: 🇺🇸 United States 31 @nodpai, server: 38.26.135.20, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321}}
+  - {name: 🇺🇸 United States 32 @nodpai, server: hk.lonan.1145114.me, port: 2052, type: vmess, uuid: 0c89cb9f-1b84-4741-9805-33998d49492b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /91819299-acb0-4f6c-db61-bdc8d7d41d97xianyu, headers: {Host: hk.lonan.1145114.me}}}
+  - {name: 🇩🇪 Germany 03 @nodpai, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}}
+  - {name: 🇺🇸 United States 33 @nodpai, server: hk.lonan.1145114.me, port: 2087, type: vmess, uuid: 0c89cb9f-1b84-4741-9805-33998d49492b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /91819299-acb0-4f6c-db61-bdc8d7d41d97xianyu, headers: {Host: hk.lonan.1145114.me}}}
+  - {name: 🇺🇸 United States 34 @nodpai, server: 142.4.112.149, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695177062956}}
   - {name: 更多免费节点:https://560888.xyz/, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
   - {name: 订阅链接已失效，请到https://560888.xyz/注册获取, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
   - {name: 🇺🇸 github.com/freefq - 美国  1, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇿🇦 github.com/freefq - 南非  2, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 3, server: 45.199.138.162, port: 48112, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 github.com/freefq - 香港  4, server: 156.245.8.248, port: 41671, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 5, server: 192.74.228.188, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.59274706.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 6, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 7, server: 67.21.84.164, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.82615355.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国  8, server: 38.26.135.20, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.39838266.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 9, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 10, server: 142.4.99.84, port: 443, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.73332463.xyz}}}
-  - {name: 🇯🇵 github.com/freefq - 日本  11, server: gw04.ipv6wifi.com, port: 443, type: vmess, uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw04.ipv6wifi.com}}}
-  - {name: 🇿🇦 github.com/freefq - 南非  12, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 13, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.75409854.xyz}}}
-  - {name: 🇭🇰 github.com/freefq - 香港电讯盈科有限公司 14, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 15, server: 45.199.138.206, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16, server: www.speedtest.net, port: 80, type: vmess, uuid: 4d868558-0166-4083-baf0-720daf24f6e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fi1.xv2ray.net}}}
-  - {name: 🇷🇺 github.com/freefq - 俄罗斯  17, server: 194.62.42.77, port: 80, type: vmess, uuid: 14665d49-17ee-4fd7-b1de-19d98e4b8e27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 18, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19, server: free4.6114514.xyz, port: 2052, type: vmess, uuid: 8204f631-8a71-4f6a-821d-6c117edaf0fa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: downloads3.6114514.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 20, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
-  - {name: 🇺🇸 github.com/freefq - 美国惠普HP 21, server: gw02.ipv6wifi.com, port: 443, type: vmess, uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gw02.ipv6wifi.com}}}
-  - {name: github.com/freefq - 亚太地区  22, server: 103.239.67.244, port: 80, type: vmess, uuid: 07ab2196-97d6-46ee-82e6-da07bb6d176e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /4gspeed.me}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 23, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: it1.xv2ray.net}}}
-  - {name: 🇭🇰 github.com/freefq - 香港  24, server: 156.245.8.144, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 25, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: ef591064-640a-48e0-a511-623d5c0e67e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: 🇭🇰 github.com/freefq - 香港  26, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 27, server: 854.outline-vpn.cloud, port: 80, type: vmess, uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 2, server: 45.199.138.162, port: 48112, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: false}
+  - {name: github.com/freefq - 亚太地区  3, server: 103.149.144.45, port: 19482, type: vmess, uuid: 50a170b7-1198-4603-e51a-0da28605d9e2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 4, server: 192.74.228.188, port: 443, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.59274706.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5, server: 45.199.138.206, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 github.com/freefq - 香港电讯盈科有限公司 6, server: hkt.123ddns.xyz, port: 55455, type: vmess, uuid: d2ce45e6-9f22-492d-d81d-d639067a7583, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.123ddns.xyz}}}
+  - {name: 🇿🇦 github.com/freefq - 南非  7, server: 156.225.67.48, port: 45493, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 8, server: 67.21.90.5, port: 443, type: vmess, uuid: 28dd6c26-05a5-4bba-8a5d-052b70ac13b2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694429908748, headers: {Host: www.75409854.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国  9, server: 38.26.135.20, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.39838266.xyz}}}
+  - {name: 🇭🇰 github.com/freefq - 香港  10, server: 156.245.8.248, port: 41671, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 11, server: 67.21.84.164, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.82615355.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 12, server: 142.4.99.84, port: 443, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.73332463.xyz}}}
+  - {name: 🇭🇰 github.com/freefq - 香港  13, server: 156.245.8.144, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 github.com/freefq - 香港  14, server: 156.245.8.146, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 15, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16, server: www.speedtest.net, port: 80, type: vmess, uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.0rd.net}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 17, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  18, server: 194.62.42.77, port: 80, type: vmess, uuid: 14665d49-17ee-4fd7-b1de-19d98e4b8e27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 19, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 20, server: 162.159.143.72, port: 80, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xui2.xuwu996.eu.org}}}
+  - {name: 🇿🇦 github.com/freefq - 南非  21, server: 156.225.67.38, port: 443, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 22, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 23, server: 104.17.88.252, port: 2082, type: vmess, uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 24, server: 172.67.98.182, port: 80, type: vmess, uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 25, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 26, server: 854.outline-vpn.cloud, port: 80, type: vmess, uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 27, server: 172.67.32.83, port: 80, type: vmess, uuid: 01754500-e814-447e-967a-5a4045fc388a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
   - {name: 🇪🇸 github.com/freefq - 西班牙  28, server: 185.214.103.89, port: 80, type: vmess, uuid: 553f0ec0-1af3-3a0c-ab4a-00d2f3ec670f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /db00}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29, server: 104.20.224.95, port: 80, type: vmess, uuid: e6be60d7-8b79-4bd3-86ba-6291b1ead2f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30, server: www.speedtest.net, port: 80, type: vmess, uuid: 62515af2-1dd9-467b-9dd3-774abefb6a62, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hu1.xv2ray.net}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 31, server: 172.67.128.217, port: 80, type: vmess, uuid: 3cf8cbb6-e544-4d50-9a3f-5a3c03a9f23c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 73b0f320-7bda-47bf-bed3-b6438cc7a61f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 33, server: 172.67.98.182, port: 80, type: vmess, uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 34, server: 45.199.138.180, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 35, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 36, server: 172.67.159.72, port: 80, type: vmess, uuid: 9276a391-5372-4ebf-8f72-020033569e52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 37, server: fd.shabijichang.com, port: 80, type: vmess, uuid: beaa0ee8-1ff6-4ee5-982d-258f0d830018, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 38, server: 172.67.87.197, port: 80, type: vmess, uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 39, server: 172.67.32.83, port: 80, type: vmess, uuid: 01754500-e814-447e-967a-5a4045fc388a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sls.shabijichang.com}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 40, server: wnd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 29, server: 172.67.159.72, port: 80, type: vmess, uuid: 9276a391-5372-4ebf-8f72-020033569e52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: amstd.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 30, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 31, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: ef591064-640a-48e0-a511-623d5c0e67e9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 32, server: 172.67.128.217, port: 80, type: vmess, uuid: 3cf8cbb6-e544-4d50-9a3f-5a3c03a9f23c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdgrm.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 33, server: 172.67.87.197, port: 80, type: vmess, uuid: a5696a03-1c9f-4018-9510-58e7bfbb5f5f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ylsl.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 34, server: wnd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wnd.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 35, server: fhc.shabijichang.com, port: 80, type: vmess, uuid: 73b0f320-7bda-47bf-bed3-b6438cc7a61f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: fhc.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 36, server: 104.20.224.95, port: 80, type: vmess, uuid: e6be60d7-8b79-4bd3-86ba-6291b1ead2f7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ld.shabijichang.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 37, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 6503fb21-5a73-4fcb-9d2d-bf04e8ff380b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm.shabijichang.com}}}
+  - {name: 🇭🇰 _HK_香港, server: 156.245.8.145, port: 42952, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国, server: 45.199.138.158, port: 48855, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
   - {name: 🇳🇱 _NL_荷兰, server: 154.85.1.128, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1684580752213}}
-  - {name: 🇷🇺 _RU_俄罗斯联邦, server: 194.87.70.83, port: 2052, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /526-ddxDMRvLdlt, headers: {Host: v138a.ai88888.top}}}
-  - {name: 🇬🇧 _GB_英国, server: uk1.connecton.surf, port: 443, type: trojan, password: ee4657c907, skip-cert-verify: true}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国, server: 14.18.108.108, port: 41929, type: trojan, password: 09833a6f-4d46-426e-87fe-7793a5489f84, sni: nl01.lovehjq.xyz, skip-cert-verify: true}
-  - {name: 🇳🇱 _NL_荷兰 2, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇮🇱 _IL_以色列, server: 194.62.42.77, port: 80, type: vmess, uuid: 14665d49-17ee-4fd7-b1de-19d98e4b8e27, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 2, server: starspeed.tbh.iosds.com, port: 19290, type: ss, cipher: chacha20-ietf-poly1305, password: 9f37ff25-99f3-4e3f-bd7b-a0ed6638246e}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡, server: starspeed.tbh.iosds.com, port: 26963, type: ss, cipher: chacha20-ietf-poly1305, password: 9f37ff25-99f3-4e3f-bd7b-a0ed6638246e}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2, server: free.node.kk-proxy.pro, port: 24962, type: ss, cipher: chacha20-ietf-poly1305, password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: starspeed.tbh.iosds.com, port: 25854, type: ss, cipher: chacha20-ietf-poly1305, password: 9f37ff25-99f3-4e3f-bd7b-a0ed6638246e}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3, server: free.node.kk-proxy.pro, port: 55928, type: ss, cipher: chacha20-ietf-poly1305, password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4, server: free.node.kk-proxy.pro, port: 24961, type: ss, cipher: chacha20-ietf-poly1305, password: 6c766113-5ba2-4bf8-8a91-50de77ed2d8a}
-  - {name: 🇺🇸 _CN_中国->🇺🇸_US_美国 3, server: starspeed.tbh.iosds.com, port: 47120, type: ss, cipher: chacha20-ietf-poly1305, password: 9f37ff25-99f3-4e3f-bd7b-a0ed6638246e}
-  - {name: 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 5, server: free.node.kk-proxy.pro, port: 54455, type: ss, cipher: chacha20-ietf-poly1305, password: 11a5b423-14cc-4699-89f0-81ea43ad9625}
-  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡, server: www.speedtest.net, port: 80, type: vmess, uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.0rd.net}}}
-  - {name: 🇺🇸 _US_美国->🇮🇳_IN_印度, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}}
-  - {name: 🇺🇸 _US_美国, server: 23.108.100.103, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: www.40587333.xyz}}}
-  - {name: 🇻🇳 _VN_越南, server: hcm02.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /svip2.4ghatde.com, headers: {Host: hcm02.4ghatde.com}}}
-  - {name: 🇻🇳 _VN_越南 2, server: hcm03.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /svip2.4ghatde.com, headers: {Host: hcm03.4ghatde.com}}}
-  - {name: 🇺🇸 _US_美国 2, server: 45.199.138.158, port: 48855, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 _HK_香港->🇸🇬_SG_新加坡, server: 18.163.249.175, port: 443, type: trojan, password: ZFYOpKqD8uEClpZ2ya83cyCDalwSOYz3F3eCxnBD4eSXNSR5R0aAATj7I3x69g, sni: golang.protocolbuffer.com, skip-cert-verify: true}
-  - {name: 🇬🇧 _GB_英国 2, server: 198.244.252.93, port: 443, type: trojan, password: de5a47b3e2, sni: uk1.connecton.surf, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国->🇨🇱_CL_智利, server: fd.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sdyg.shabijichang.com}}}
-  - {name: _CN_中国, server: zjxc.pmxu.link, port: 44361, type: vmess, uuid: 87cb41c3-67e3-36e2-ae08-71411af27b6b, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 _SG_新加坡->🇺🇸_US_美国, server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}}
-  - {name: 🇯🇵 _JP_日本, server: jp7.421421.xyz, port: 20230, type: trojan, password: 9323c75e-56bd-4dee-bd90-601e6f03d259, sni: 421421.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国 3, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本 2, server: 39.164.141.104, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: lt1.992688.xyz, port: 8080, type: vmess, uuid: cafbdf1c-5812-492f-92ac-330650c6ecf0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.vpn66.eu.org}}}
-  - {name: 🇺🇸 _US_美国 4, server: 198.2.202.84, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694859605321, headers: {Host: www.65825524.xyz}}}
-  - {name: 🇺🇸 _US_美国 5, server: 103.149.144.45, port: 19482, type: vmess, uuid: 50a170b7-1198-4603-e51a-0da28605d9e2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 6, server: 103.149.144.196, port: 35186, type: vmess, uuid: a406e9f8-d80c-45cb-efa1-b63855b79814, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 _US_美国 7, server: 198.2.202.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1694341232847, headers: {Host: www.65825524.xyz}}}
+  - {name: 🇺🇸 _US_美国 2, server: 23.108.100.101, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers}}
+  - {name: 🇸🇬 _JP_日本->🇸🇬_SG_新加坡, server: fschk.1234567890spcloud.com, port: 20004, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 _CN_中国->🇯🇵_JP_日本, server: zz.chaosu999.com, port: 40350, type: trojan, password: ff0675b0-c665-3d69-800b-f7fc29e1ead8, sni: chaosujp.ccoo520.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 3, server: 142.4.99.84, port: 443, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.73332463.xyz}}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 162.159.129.245, port: 8080, type: vmess, uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu5.vpn66.eu.org}}}
+  - {name: 🇺🇸 _US_美国->🇱🇺_LU_卢森堡, server: cf.yx.alue.link, port: 2052, type: vmess, uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: lu.wx.alue.link}}}
+  - {name: 🇺🇸 _US_美国 4, server: 142.0.134.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.44509549.xyz}}}
+  - {name: 🇺🇸 _US_美国 5, server: 142.4.126.34, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.29135019.xyz}}}
+  - {name: 🇺🇸 _US_美国 6, server: 107.148.203.2, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.13364896.xyz}}}
+  - {name: 🇺🇸 _US_美国 7, server: 137.175.32.89, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.45176089.xyz}}}
+  - {name: 🇺🇸 _US_美国 8, server: 64.32.4.37, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.13082798.xyz}}}
+  - {name: 🇺🇸 _US_美国 9, server: 198.2.204.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.75575729.xyz}}}
+  - {name: 🇺🇸 _US_美国 10, server: 142.4.112.134, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.80128693.xyz}}}
+  - {name: 🇺🇸 _US_美国 11, server: 137.175.22.148, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.82078541.xyz}}}
+  - {name: 🇺🇸 _US_美国 12, server: 137.175.49.196, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.37195723.xyz}}}
+  - {name: 🇺🇸 _US_美国 13, server: 192.74.238.233, port: 41772, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 14, server: 142.0.128.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695724315810, headers: {Host: www.63084332.xyz}}}
+  - {name: 🇺🇸 _US_美国 15, server: 137.175.23.181, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1695809872050, headers: {Host: www.22866947.xyz}}}
+  - {name: 🇺🇸 _US_美国 16, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 17, server: 103.149.144.45, port: 19482, type: vmess, uuid: 50a170b7-1198-4603-e51a-0da28605d9e2, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 _US_美国 18, server: tunneltransfer.bpyjc.com, port: 2095, type: vmess, uuid: 22fede49-0280-4472-980e-4549f8bcb53c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.bpyjc.com}}}
+  - {name: 🇺🇸 _US_美国 19, server: tunneltransfer.bpyjc.com, port: 8080, type: vmess, uuid: 22fede49-0280-4472-980e-4549f8bcb53c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.bpyjc.com}}}
+  - {name: 🇺🇸 _US_美国 20, server: tunneltransfer.bpyjc.com, port: 8880, type: vmess, uuid: 22fede49-0280-4472-980e-4549f8bcb53c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us.bpyjc.com}}}
+  - {name: 🇹🇼 _TW_台湾, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: e39371c5-b15e-48d1-98c8-d5b24b7e0301, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国->🇨🇭_CH_瑞士, server: db2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: db2.shabijichang.com}}}
+  - {name: 🇸🇬 _SG_新加坡, server: ashdoiashjoi.fscloud12345678901.com, port: 20004, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: fscfsc.1234567890spcloud.com, skip-cert-verify: true}
+  - {name: 🇩🇪 _DE_德国, server: 89.163.220.99, port: 443, type: trojan, password: e39371c5-b15e-48d1-98c8-d5b24b7e0301, sni: glc-de1.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇸🇬 _SG_新加坡->🇯🇵_JP_日本, server: fschk.1234567890spcloud.com, port: 20003, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 21, server: 162.159.143.72, port: 80, type: vmess, uuid: fab552f9-3c92-44ed-c086-08d631ee44ee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xui2.xuwu996.eu.org}}}
+  - {name: 🇺🇸 _US_美国 22, server: 45.199.138.205, port: 44094, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇦 _CA_加拿大, server: 108.181.22.161, port: 443, type: trojan, password: e39371c5-b15e-48d1-98c8-d5b24b7e0301, sni: glc-us2.windowsupdatea.com, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本->🇬🇧_GB_英国, server: ashdoiashjoi.fscloud12345678901.com, port: 20005, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: fscfsc.1234567890spcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 _JP_日本->🇰🇷_KR_韩国, server: fschk.1234567890spcloud.com, port: 20008, type: trojan, password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102, sni: ceshii.1234567890spcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 _US_美国 23, server: 141.193.68.81, port: 443, type: trojan, password: e39371c5-b15e-48d1-98c8-d5b24b7e0301, sni: glc-us3.windowsupdatea.com, skip-cert-verify: true}
   - {name: 🇦🇷 Relay 🇦🇷 Argentina 01 TG:@SSRSUB, server: node03.gde52px1vwf5q6301fxn.catapi.management, port: 41804, type: ss, cipher: chacha20-ietf-poly1305, password: 728229b9-164e-45cb-bfb3-896b3a056a18}
   - {name: 🇦🇷 Relay 🇦🇷 Argentina(ChatGPT) 02 TG:@SSRSUB, server: gy.linghun3.xyz, port: 40063, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
   - {name: 🇦🇺 Relay 🇦🇺 Australia(ChatGPT) 01 TG:@SSRSUB, server: gy.linghun3.xyz, port: 40069, type: ss, cipher: aes-128-gcm, password: c17a100c-c816-47a9-9cc6-ab06aacc11b7}
@@ -305,160 +344,199 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国 CloudFlare节点
-      - 🇷🇺 俄罗斯 V2CROSS.COM
+      - 🇭🇰 香港 V2CROSS.COM
+      - 🇺🇸 美国 加利福尼亚州洛杉矶市SharkTech数据中心
       - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房
-      - 🇷🇺 俄罗斯 V2CROSS.COM 2
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 2
-      - 🇿🇦 南非 V2CROSS.COM
-      - 🇺🇸 美国 加利福尼亚州圣何塞MULTACOM机房 3
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 加利福尼亚州洛杉矶Sharktech数据中心
       - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 Cloudinnovation数据中心
       - 🇺🇸 美国 CloudFlare节点 3
-      - 🇿🇦 南非 V2CROSS.COM 2
-      - 🇨🇳 「节点冠名招商 @nodpai」🇨🇳 CN 01
-      - 🇺🇸 「蛋挞云,流媒体全解锁」🇺🇸 US 01
-      - 🇭🇰 「eggtartcloud.shop 自选入口,速度保证」🇭🇰 HK 01
-      - 🇺🇸 「蛋挞云,超低价格,超高体验」🇺🇸 US 02
+      - 🇺🇸 美国 Cloudinnovation数据中心 2
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇿🇦 南非 V2CROSS.COM
+      - 🇭🇰 「节点冠名招商 @nodpai」🇭🇰 HK 01
+      - 🇭🇰 「蛋挞云,流媒体全解锁」🇭🇰 HK 02
+      - 🇸🇬 「eggtartcloud.shop 自选入口,速度保证」🇸🇬 SG 01
+      - 🇭🇰 「蛋挞云,超低价格,超高体验」🇭🇰 HK 03
+      - 🇸🇬 中转 🇸🇬 Singapore 02 @nodpai
+      - 🇹🇼 中转 🇹🇼 Taiwan 01 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 04 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 05 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 06 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 01 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 03 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 03 @nodpai
+      - 🇺🇸 United States 01 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 04 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 05 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 06 @nodpai
+      - 🇨🇳 China 01 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 07 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 02 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 05 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 03 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 07 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 08 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 06 @nodpai
+      - 🇦🇹 中转 🇦🇹 Austria 01 @nodpai
+      - 中转 🇻🇳 Viet Nam 01 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 04 @nodpai
       - 🇳🇱 Netherlands 01 @nodpai
       - 🇳🇱 Netherlands 02 @nodpai
       - 🇳🇱 Netherlands 03 @nodpai
-      - 🇺🇸 United States 03 @nodpai
       - 🇳🇱 Netherlands 04 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 01 @nodpai
       - 🇳🇱 Netherlands 05 @nodpai
       - 🇳🇱 Netherlands 06 @nodpai
-      - 🇯🇵 Japan 01 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 02 @nodpai
       - 🇳🇱 Netherlands 07 @nodpai
-      - 🇯🇵 中转 🇯🇵 Japan 02 @nodpai
-      - 🇸🇬 Singapore 03 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 04 @nodpai
       - 🇳🇱 Netherlands 08 @nodpai
-      - 🇺🇸 United States 04 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 05 @nodpai
-      - 🇺🇸 United States 06 @nodpai
-      - 🇺🇸 United States 07 @nodpai
-      - 🇭🇰 中转 🇭🇰 Hong Kong 02 @nodpai
-      - 🇯🇵 Japan 03 @nodpai
-      - 🇸🇬 Singapore 05 @nodpai
-      - 🇹🇷 中转 🇹🇷 Turkey 01 @nodpai
-      - 🇸🇬 Singapore 06 @nodpai
       - 🇳🇱 Netherlands 09 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 05 @nodpai
+      - 🇩🇪 中转 🇩🇪 Germany 01 @nodpai
+      - 🇳🇱 Netherlands 10 @nodpai
+      - 🇳🇱 Netherlands 11 @nodpai
+      - 🇳🇱 Netherlands 12 @nodpai
+      - 🇳🇱 Netherlands 13 @nodpai
+      - 🇳🇱 Netherlands 14 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 06 @nodpai
+      - 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai
+      - 🇳🇱 Netherlands 15 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 07 @nodpai
       - 🇺🇸 United States 08 @nodpai
-      - 🇯🇵 Japan 04 @nodpai
-      - 🇸🇬 Singapore 07 @nodpai
+      - 🇳🇱 Netherlands 16 @nodpai
       - 🇺🇸 United States 09 @nodpai
-      - 🇺🇸 United States 10 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 10 @nodpai
       - 🇺🇸 中转 🇺🇸 United States 11 @nodpai
       - 🇺🇸 United States 12 @nodpai
-      - 🇳🇱 Netherlands 10 @nodpai
-      - 🇺🇸 United States 13 @nodpai
-      - 🇭🇰 Hong Kong 03 @nodpai
-      - 🇭🇰 Hong Kong 04 @nodpai
+      - 🇭🇰 Hong Kong 09 @nodpai
+      - 🇬🇧 中转 🇬🇧 United Kingdom 02 @nodpai
+      - 🇩🇪 中转 🇩🇪 Germany 02 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 13 @nodpai
       - 🇺🇸 United States 14 @nodpai
-      - 🇳🇱 Netherlands 11 @nodpai
-      - 🇹🇷 中转 🇹🇷 Turkey 02 @nodpai
-      - 🇪🇨 中转 🇪🇨 Ecuador 01 @nodpai
-      - 🇺🇸 United States 15 @nodpai
-      - 🇯🇵 Japan 05 @nodpai
+      - 🇳🇱 Netherlands 17 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 15 @nodpai
       - 🇺🇸 United States 16 @nodpai
-      - 🇺🇸 United States 17 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 17 @nodpai
       - 🇺🇸 United States 18 @nodpai
-      - 🇵🇪 中转 🇵🇪 Peru 01 @nodpai
-      - 🇺🇸 United States 19 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 19 @nodpai
+      - 🇦🇷 中转 🇦🇷 Argentina 01 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 09 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 10 @nodpai
+      - 🇭🇰 中转 🇭🇰 Hong Kong 10 @nodpai
       - 🇺🇸 United States 20 @nodpai
-      - 🇸🇬 中转 🇸🇬 Singapore 08 @nodpai
-      - 🇿🇦 中转 🇿🇦 South Africa 01 @nodpai
-      - 🇳🇱 中转 🇳🇱 Netherlands 12 @nodpai
-      - 🇳🇬 中转 🇳🇬 Nigeria 01 @nodpai
-      - 🇺🇸 United States 21 @nodpai
-      - 🇬🇧 中转 🇬🇧 United Kingdom 01 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 21 @nodpai
+      - 🇸🇬 中转 🇸🇬 Singapore 11 @nodpai
       - 🇺🇸 中转 🇺🇸 United States 22 @nodpai
       - 🇺🇸 United States 23 @nodpai
-      - 🇺🇸 中转 🇺🇸 United States 24 @nodpai
-      - 🇳🇱 Netherlands 13 @nodpai
+      - 🇳🇱 Netherlands 18 @nodpai
+      - United Arab Emirates 01 @nodpai
+      - 🇨🇦 Canada 01 @nodpai
+      - 🇳🇱 Netherlands 19 @nodpai
+      - 🇸🇦 Saudi Arabia 01 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 07 @nodpai
+      - 🇳🇱 Netherlands 20 @nodpai
+      - 🇭🇰 Hong Kong 11 @nodpai
+      - 🇳🇱 Netherlands 21 @nodpai
+      - 🇯🇵 中转 🇯🇵 Japan 08 @nodpai
+      - 🇳🇱 Netherlands 22 @nodpai
+      - 🇺🇸 United States 24 @nodpai
+      - 🇳🇱 Netherlands 23 @nodpai
+      - 🇳🇱 Netherlands 24 @nodpai
+      - 🇳🇱 Netherlands 25 @nodpai
       - 🇺🇸 United States 25 @nodpai
-      - 🇺🇸 United States 26 @nodpai
-      - 🇳🇱 Netherlands 14 @nodpai
-      - 🇳🇱 Netherlands 15 @nodpai
-      - 🇨🇳 China 02 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 26 @nodpai
+      - 🇭🇰 Hong Kong 12 @nodpai
       - 🇺🇸 United States 27 @nodpai
-      - 🇺🇸 United States 28 @nodpai
+      - 🇺🇸 中转 🇺🇸 United States 28 @nodpai
+      - 🇺🇸 United States 29 @nodpai
+      - 🇳🇱 Netherlands 26 @nodpai
+      - 🇺🇸 United States 30 @nodpai
+      - 🇺🇸 United States 31 @nodpai
+      - 🇺🇸 United States 32 @nodpai
+      - 🇩🇪 Germany 03 @nodpai
+      - 🇺🇸 United States 33 @nodpai
+      - 🇺🇸 United States 34 @nodpai
       - 更多免费节点:https://560888.xyz/
       - 订阅链接已失效，请到https://560888.xyz/注册获取
       - 🇺🇸 github.com/freefq - 美国  1
-      - 🇿🇦 github.com/freefq - 南非  2
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 3
-      - 🇭🇰 github.com/freefq - 香港  4
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 5
-      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 6
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 7
-      - 🇺🇸 github.com/freefq - 美国  8
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 9
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 10
-      - 🇯🇵 github.com/freefq - 日本  11
-      - 🇿🇦 github.com/freefq - 南非  12
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 13
-      - 🇭🇰 github.com/freefq - 香港电讯盈科有限公司 14
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 15
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 2
+      - github.com/freefq - 亚太地区  3
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH数据中心 4
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 5
+      - 🇭🇰 github.com/freefq - 香港电讯盈科有限公司 6
+      - 🇿🇦 github.com/freefq - 南非  7
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 8
+      - 🇺🇸 github.com/freefq - 美国  9
+      - 🇭🇰 github.com/freefq - 香港  10
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶SharkTech数据中心 11
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 12
+      - 🇭🇰 github.com/freefq - 香港  13
+      - 🇭🇰 github.com/freefq - 香港  14
+      - 🇺🇸 github.com/freefq - 美国Cloudinnovation数据中心 15
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - 🇷🇺 github.com/freefq - 俄罗斯  17
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶市SharkTech数据中心 18
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 19
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 17
+      - 🇷🇺 github.com/freefq - 俄罗斯  18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 19
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 20
-      - 🇺🇸 github.com/freefq - 美国惠普HP 21
-      - github.com/freefq - 亚太地区  22
+      - 🇿🇦 github.com/freefq - 南非  21
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 22
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 23
-      - 🇭🇰 github.com/freefq - 香港  24
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 25
-      - 🇭🇰 github.com/freefq - 香港  26
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 24
+      - 🇺🇸 github.com/freefq - 美国加利福尼亚州洛杉矶Sharktech数据中心 25
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 26
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 27
       - 🇪🇸 github.com/freefq - 西班牙  28
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 30
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 32
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 29
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 30
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 32
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 33
-      - 🇺🇸 github.com/freefq - 美国加利福尼亚州圣何塞MULTACOM机房 34
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 34
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 35
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 36
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 36
       - 🇺🇸 github.com/freefq - 美国CloudFlare节点 37
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 38
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 39
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 40
-      - 🇳🇱 _NL_荷兰
-      - 🇷🇺 _RU_俄罗斯联邦
-      - 🇬🇧 _GB_英国
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国
-      - 🇳🇱 _NL_荷兰 2
-      - 🇮🇱 _IL_以色列
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 2
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 2
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 3
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 4
-      - 🇺🇸 _CN_中国->🇺🇸_US_美国 3
-      - 🇸🇬 _CN_中国->🇸🇬_SG_新加坡 5
-      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-      - 🇺🇸 _US_美国->🇮🇳_IN_印度
+      - 🇭🇰 _HK_香港
       - 🇺🇸 _US_美国
-      - 🇻🇳 _VN_越南
-      - 🇻🇳 _VN_越南 2
+      - 🇳🇱 _NL_荷兰
       - 🇺🇸 _US_美国 2
-      - 🇭🇰 _HK_香港->🇸🇬_SG_新加坡
-      - 🇬🇧 _GB_英国 2
-      - 🇺🇸 _US_美国->🇨🇱_CL_智利
-      - _CN_中国
-      - 🇸🇬 _SG_新加坡->🇺🇸_US_美国
-      - 🇯🇵 _JP_日本
+      - 🇸🇬 _JP_日本->🇸🇬_SG_新加坡
+      - 🇯🇵 _CN_中国->🇯🇵_JP_日本
       - 🇺🇸 _US_美国 3
-      - 🇯🇵 _CN_中国->🇯🇵_JP_日本 2
       - 🇺🇸 _US_美国->🇩🇪_DE_德国
+      - 🇺🇸 _US_美国->🇱🇺_LU_卢森堡
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
       - 🇺🇸 _US_美国 6
       - 🇺🇸 _US_美国 7
+      - 🇺🇸 _US_美国 8
+      - 🇺🇸 _US_美国 9
+      - 🇺🇸 _US_美国 10
+      - 🇺🇸 _US_美国 11
+      - 🇺🇸 _US_美国 12
+      - 🇺🇸 _US_美国 13
+      - 🇺🇸 _US_美国 14
+      - 🇺🇸 _US_美国 15
+      - 🇺🇸 _US_美国 16
+      - 🇺🇸 _US_美国 17
+      - 🇺🇸 _US_美国 18
+      - 🇺🇸 _US_美国 19
+      - 🇺🇸 _US_美国 20
+      - 🇹🇼 _TW_台湾
+      - 🇺🇸 _US_美国->🇨🇭_CH_瑞士
+      - 🇸🇬 _SG_新加坡
+      - 🇩🇪 _DE_德国
+      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇺🇸 _US_美国 21
+      - 🇺🇸 _US_美国 22
+      - 🇨🇦 _CA_加拿大
+      - 🇯🇵 _JP_日本->🇬🇧_GB_英国
+      - 🇯🇵 _JP_日本->🇰🇷_KR_韩国
+      - 🇺🇸 _US_美国 23
       - 🇦🇷 Relay 🇦🇷 Argentina 01 TG:@SSRSUB
       - 🇦🇷 Relay 🇦🇷 Argentina(ChatGPT) 02 TG:@SSRSUB
       - 🇦🇺 Relay 🇦🇺 Australia(ChatGPT) 01 TG:@SSRSUB
