@@ -4,7 +4,7 @@
 PWD=`pwd`/sources
 cd ${PWD}
 # 获取下载路径
-DOWNLOAD=`curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k 'https://github.com/Dreamacro/clash/releases' | sed 's;";\n;g;s;tag;download;g' | grep '/download/' | head -n 1`
+DOWNLOAD=`curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k 'https://github.com/MetaCubeX/mihomo/releases' | sed 's;";\n;g;s;tag;download;g' | grep '/download/' | head -n 2 | tail -1`
 
 # 更新url节点
 update_url(){
@@ -43,24 +43,25 @@ update_windows_amd64(){
 
 # 打印环境变量
 # echo -e "${CLASH_PATH}\n${VERSION_NAME}\n${FILE_NAME}\n${EXE_FILE_NAME_1}\n${EXE_FILE_NAME_2}"
-echo "https://github.com${DOWNLOAD}/clash-windows-amd64-v3-`basename ${DOWNLOAD}`.zip"
+echo "https://github.com${DOWNLOAD}/mihomo-windows-amd64-`basename ${DOWNLOAD}`.zip"
 
 # 下载
 # curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${CLASH_PATH}" -O
-curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/clash-windows-amd64-v3-`basename ${DOWNLOAD}`.zip" -o clash-windows-amd64-v3-`basename ${DOWNLOAD}`.zip -O
+curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/mihomo-windows-amd64-`basename ${DOWNLOAD}`.zip" -o mihomo-windows-amd64-`basename ${DOWNLOAD}`.zip -O
 
 # 覆盖解压
 # unar -f ${FILE_NAME}
-unar -f clash-windows-amd64-v3-`basename ${DOWNLOAD}`.zip
+unar -f mihomo-windows-amd64-`basename ${DOWNLOAD}`.zip
 
 # 修改文件名
 # cp -fv ${EXE_FILE_NAME_1} ${EXE_FILE_NAME_2}
-cp -fv clash-windows-amd64-v3.exe clash-windows-amd64.exe
+# cp -fv mihomo-windows-amd64.exe clash-windows-amd64.exe
 # chmod -vR 777 clash-windows-amd64.exe
 
 # 删除压缩包文件
 # rm -rfv ${FILE_NAME} ${EXE_FILE_NAME_1}
-rm -rfv clash-windows-amd64-v3-`basename ${DOWNLOAD}`.zip clash-windows-amd64-v3.exe
+# rm -rfv mihomo-windows-amd64-`basename ${DOWNLOAD}`.zip mihomo-windows-amd64.exe
+rm -rfv mihomo-windows-amd64-`basename ${DOWNLOAD}`.zip
 
 # 解除环境变量
 # unset CLASH_PATH VERSION_NAME FILE_NAME EXE_FILE_NAME_1 EXE_FILE_NAME_2
@@ -88,24 +89,24 @@ update_linux_amd64(){
 
 # 打印环境变量
 # echo -e "${CLASH_PATH}\n${VERSION_NAME}\n${FILE_NAME}\n${EXE_FILE_NAME_1}\n${EXE_FILE_NAME_2}"
-echo "https://github.com${DOWNLOAD}/clash-linux-amd64-v3-`basename ${DOWNLOAD}`.gz"
+echo "https://github.com${DOWNLOAD}/mihomo-linux-amd64-`basename ${DOWNLOAD}`.gz"
 
 # 下载
 # curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${CLASH_PATH}" -O
-curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/clash-linux-amd64-v3-`basename ${DOWNLOAD}`.gz" -o clash-linux-amd64-v3-`basename ${DOWNLOAD}`.gz -O
+curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/mihomo-linux-amd64-`basename ${DOWNLOAD}`.gz" -o mihomo-linux-amd64-`basename ${DOWNLOAD}`.gz -O
 
 # 覆盖解压
 # unar -f ${FILE_NAME}
-unar -f clash-linux-amd64-v3-`basename ${DOWNLOAD}`.gz 
+unar -f mihomo-linux-amd64-`basename ${DOWNLOAD}`.gz 
 
 # 修改文件名
 # cp -fv ${EXE_FILE_NAME_1} ${EXE_FILE_NAME_2}
-cp -fv clash-linux-amd64-v3-`basename ${DOWNLOAD}` clash-linux-amd64
+cp -fv mihomo-linux-amd64-`basename ${DOWNLOAD}` mihomo-linux-amd64
 # chmod -vR 777 clash-linux-amd64
 
 # 删除压缩包文件
 # rm -rfv ${FILE_NAME} ${EXE_FILE_NAME_1}
-rm -rfv clash-linux-amd64-v3-`basename ${DOWNLOAD}`.gz clash-linux-amd64-v3-`basename ${DOWNLOAD}`
+rm -rfv mihomo-linux-amd64-`basename ${DOWNLOAD}`.gz mihomo-linux-amd64-`basename ${DOWNLOAD}`
 
 # 解除环境变量
 # unset CLASH_PATH VERSION_NAME FILE_NAME EXE_FILE_NAME_1 EXE_FILE_NAME_2
@@ -133,24 +134,24 @@ update_mac_amd64(){
 
 # 打印环境变量
 # echo -e "${CLASH_PATH}\n${VERSION_NAME}\n${FILE_NAME}\n${EXE_FILE_NAME_1}\n${EXE_FILE_NAME_2}"
-echo "https://github.com${DOWNLOAD}/clash-darwin-amd64-v3-`basename ${DOWNLOAD}`.gz"
+echo "https://github.com${DOWNLOAD}/mihomo-darwin-amd64-`basename ${DOWNLOAD}`.gz"
 
 # 下载
 # curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${CLASH_PATH}" -O
-curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/clash-darwin-amd64-v3-`basename ${DOWNLOAD}`.gz" -o clash-darwin-amd64-v3-`basename ${DOWNLOAD}`.gz -O
+curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/mihomo-darwin-amd64-`basename ${DOWNLOAD}`.gz" -o mihomo-darwin-amd64-`basename ${DOWNLOAD}`.gz -O
 
 # 覆盖解压
 # unar -f ${FILE_NAME}
-unar -f clash-darwin-amd64-v3-`basename ${DOWNLOAD}`.gz
+unar -f mihomo-darwin-amd64-`basename ${DOWNLOAD}`.gz
 
 # 修改文件名
 # cp -fv ${EXE_FILE_NAME_1} ${EXE_FILE_NAME_2}
-cp -fv clash-darwin-amd64-v3-`basename ${DOWNLOAD}` clash-darwin-amd64
+cp -fv mihomo-darwin-amd64-`basename ${DOWNLOAD}` mihomo-darwin-amd64
 # chmod -vR 777 clash-darwin-amd64
 
 # 删除压缩包文件
 # rm -rfv ${FILE_NAME} ${EXE_FILE_NAME_1}
-rm -rfv clash-darwin-amd64-v3-`basename ${DOWNLOAD}`.gz clash-darwin-amd64-v3-`basename ${DOWNLOAD}`
+rm -rfv mihomo-darwin-amd64-`basename ${DOWNLOAD}`.gz mihomo-darwin-amd64-`basename ${DOWNLOAD}`
 
 # 解除环境变量
 # unset CLASH_PATH VERSION_NAME FILE_NAME EXE_FILE_NAME_1 EXE_FILE_NAME_2
@@ -180,30 +181,30 @@ update_linux_arm64(){
 
 # 打印环境变量变成 arm64 了？
 # echo -e "${CLASH_PATH}\n${VERSION_NAME}\n${FILE_NAME}\n${EXE_FILE_NAME_1}\n${EXE_FILE_NAME_2}"
-# echo "https://github.com${DOWNLOAD}/clash-linux-armv8-`basename ${DOWNLOAD}`.gz"
-echo "https://github.com${DOWNLOAD}/clash-linux-arm64-`basename ${DOWNLOAD}`.gz"
+# echo "https://github.com${DOWNLOAD}/clash-linux-armv8-`basename ${DOWNLOAD}`.gz" 
+echo "https://github.com${DOWNLOAD}/mihomo-linux-arm64-`basename ${DOWNLOAD}`.gz"
 
 # 下载变成 arm64 了？
 # curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${CLASH_PATH}" -O
 # curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/clash-linux-armv8-`basename ${DOWNLOAD}`.gz" -o clash-linux-armv8-`basename ${DOWNLOAD}`.gz -O
-curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/clash-linux-arm64-`basename ${DOWNLOAD}`.gz" -o clash-linux-arm64-`basename ${DOWNLOAD}`.gz -O
+curl -SL --connect-timeout 30 -m 60 --speed-time 30 --speed-limit 1 --retry 2 -H "Connection: keep-alive" -k "https://github.com${DOWNLOAD}/mihomo-linux-arm64-`basename ${DOWNLOAD}`.gz" -o mihomo-linux-arm64-`basename ${DOWNLOAD}`.gz -O
 
 # 覆盖解压变成 arm64 了？
 # unar -f ${FILE_NAME}
 # unar -f clash-linux-armv8-`basename ${DOWNLOAD}`.gz
-unar -f clash-linux-arm64-`basename ${DOWNLOAD}`.gz
+unar -f mihomo-linux-arm64-`basename ${DOWNLOAD}`.gz
 
 # 修改文件名变成 arm64 了？
 # cp -fv ${EXE_FILE_NAME_1} ${EXE_FILE_NAME_2}
 # cp -fv clash-linux-armv8-`basename ${DOWNLOAD}` clash-linux-armv8
 # chmod -vR 777 clash-linux-armv8
-cp -fv clash-linux-arm64-`basename ${DOWNLOAD}` clash-linux-arm64
+cp -fv mihomo-linux-arm64-`basename ${DOWNLOAD}` mihomo-linux-arm64
 # chmod -vR 777 clash-linux-arm64
 
 # 删除压缩包文件变成 arm64 了？
 # rm -rfv ${FILE_NAME} ${EXE_FILE_NAME_1}
 # rm -rfv clash-linux-armv8-`basename ${DOWNLOAD}`.gz clash-linux-armv8-`basename ${DOWNLOAD}`
-rm -rfv clash-linux-arm64-`basename ${DOWNLOAD}`.gz clash-linux-arm64-`basename ${DOWNLOAD}`
+rm -rfv mihomo-linux-arm64-`basename ${DOWNLOAD}`.gz mihomo-linux-arm64-`basename ${DOWNLOAD}`
 
 # 解除环境变量
 # unset CLASH_PATH VERSION_NAME FILE_NAME EXE_FILE_NAME_1 EXE_FILE_NAME_2
