@@ -76,5 +76,5 @@ windows mac 目前支持安装 chrome
 本项目仅作学习交流使用，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
 # 感谢
-~~Dreamacro 大佬的内核：https://github.com/Dreamacro/clash~~
+~~Dreamacro 大佬的内核：https://github.com/Dreamacro/clash~~  
 MetaCubeX 大佬的内核：https://github.com/MetaCubeX/mihomo
