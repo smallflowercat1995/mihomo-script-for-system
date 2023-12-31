@@ -77,4 +77,5 @@ windows mac 目前支持安装 chrome
 
 # 感谢
 ~~Dreamacro 大佬的内核：https://github.com/Dreamacro/clash~~  
-MetaCubeX 大佬的内核：https://github.com/MetaCubeX/mihomo
+MetaCubeX 大佬的内核：https://github.com/MetaCubeX/mihomo  
+Loyalsoldier 大佬的geoip：https://github.com/Loyalsoldier/geoip  
