@@ -1,5 +1,13 @@
 # mihomo-script-for-system
-Clash virtual private network technology script adapted to various systems
+Mihomo virtual private network technology script adapted to various systems  
+[![GitHub Workflow Status](https://github.com/smallflowercat1995/mihomo-script-for-system/actions/workflows/actions.yml/badge.svg)](https://github.com/smallflowercat1995/mihomo-script-for-system/actions/workflows/actions.yml)![Watchers](https://img.shields.io/github/watchers/smallflowercat1995/mihomo-script-for-system) ![Stars](https://img.shields.io/github/stars/smallflowercat1995/mihomo-script-for-system) ![Forks](https://img.shields.io/github/forks/smallflowercat1995/mihomo-script-for-system) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=smallflowercat1995.mihomo-script-for-system) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+<a href="https://star-history.com/#smallflowercat1995/mihomo-script-for-system&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=smallflowercat1995/mihomo-script-for-system&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=smallflowercat1995/mihomo-script-for-system&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=smallflowercat1995/mihomo-script-for-system&type=Date" />
+  </picture>
+</a>
 
 ## 描述
 0.~~这个项目目前 10 代 CPU 会遇到 v3 版本不能使用的问题，需要手动下载 clash v1 的内核替换到 sources 文件夹里对应的位置，我的电脑是 7 代 CPU 用 v3 版本没有问题，我习惯优先方便自己使用，所以不打算修改代码逻辑，请原谅~~  
