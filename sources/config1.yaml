@@ -1,0 +1,66 @@
+port: 7891
+socks-port: 7892
+mixed-port: 7893
+external-controller: :7894
+redir-port: 7895
+tproxy-port: 7896
+allow-lan: true
+mode: rule
+log-level: debug
+proxies:
+  - {name: https://github.com/Alvin9999/new-pac/wiki_1, server: 183.232.117.54, port: 61008, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_2, server: cdn.twnct.6641634715834932.me, port: 7045, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, sni: cdn.twnct.6641634715834932.me, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_3, server: 111.38.40.129, port: 12203, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_4, server: 111.38.40.129, port: 61007, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_5, server: 111.38.40.129, port: 61008, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_6, server: 183.232.117.54, port: 61012, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_7, server: aws-sg.aikun.online, port: 443, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, sni: aws-sg.aikun.online, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_8, server: 183.232.117.54, port: 61011, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_9, server: 183.232.117.54, port: 61014, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_10, server: aws-hk03.aikun.online, port: 443, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, sni: aws-hk03.aikun.online, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_11, server: 111.38.40.129, port: 61012, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_12, server: 111.38.40.129, port: 61011, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_13, server: 183.232.117.54, port: 12211, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_14, server: 111.38.40.129, port: 61014, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_15, server: aws-hk01.aikun.online, port: 443, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, sni: aws-hk01.aikun.online, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_16, server: aws-jp.aikun.online, port: 443, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, sni: aws-jp.aikun.online, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_17, server: 183.232.117.54, port: 61007, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_18, server: aws-hk02.aikun.online, port: 443, type: trojan, password: 1d636482-5f7b-41d3-ac42-241c00935fbb, sni: aws-hk02.aikun.online, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_19, server: 183.232.117.54, port: 12200, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_20, server: 183.232.117.54, port: 12202, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_21, server: 163.123.192.146, port: 443, type: trojan, password: 2cb6537c-e6db-4d20-ba70-3495b95aca68, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki_22, server: 183.232.117.54, port: 12201, type: trojan, password: a88e7c17-c62c-4cb1-a687-4cb2c37863fa, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: true}
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - https://github.com/Alvin9999/new-pac/wiki_1
+      - https://github.com/Alvin9999/new-pac/wiki_2
+      - https://github.com/Alvin9999/new-pac/wiki_3
+      - https://github.com/Alvin9999/new-pac/wiki_4
+      - https://github.com/Alvin9999/new-pac/wiki_5
+      - https://github.com/Alvin9999/new-pac/wiki_6
+      - https://github.com/Alvin9999/new-pac/wiki_7
+      - https://github.com/Alvin9999/new-pac/wiki_8
+      - https://github.com/Alvin9999/new-pac/wiki_9
+      - https://github.com/Alvin9999/new-pac/wiki_10
+      - https://github.com/Alvin9999/new-pac/wiki_11
+      - https://github.com/Alvin9999/new-pac/wiki_12
+      - https://github.com/Alvin9999/new-pac/wiki_13
+      - https://github.com/Alvin9999/new-pac/wiki_14
+      - https://github.com/Alvin9999/new-pac/wiki_15
+      - https://github.com/Alvin9999/new-pac/wiki_16
+      - https://github.com/Alvin9999/new-pac/wiki_17
+      - https://github.com/Alvin9999/new-pac/wiki_18
+      - https://github.com/Alvin9999/new-pac/wiki_19
+      - https://github.com/Alvin9999/new-pac/wiki_20
+      - https://github.com/Alvin9999/new-pac/wiki_21
+      - https://github.com/Alvin9999/new-pac/wiki_22
+rules:
+ - MATCH,🔰 节点选择

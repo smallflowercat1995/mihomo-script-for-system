@@ -1,0 +1,9 @@
+# 禁止对 .gitattributes 文件进行行尾符转换
+.gitattributes -text
+
+# 在 .gitattributes 文件中设置行尾符为 LF 的文件
+* -text
+
+# 允许特定文件 lf 转 crlf
+mihomo-start-amd64-windows.cmd text eol=crlf
+mihomo-update-amd64-windows.cmd text eol=crlf

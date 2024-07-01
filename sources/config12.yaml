@@ -1,0 +1,96 @@
+port: 7891
+socks-port: 7892
+mixed-port: 7893
+external-controller: :7894
+redir-port: 7895
+tproxy-port: 7896
+allow-lan: true
+mode: rule
+log-level: debug
+secret: dongtaiwang.com
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+proxies:
+  - name: dongtaiwang.com_0
+    type: ss
+    server: 23.170.40.77
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: "CmUP/cj9LY2W4bsBUV7mG8ujmMcCOzt+b4un9xnLuro="
+    plugin: shadow-tls
+    plugin-opts:
+      host: "nijigen-works.jp"
+      password: "K+NtA/8R8MTQ9vyZAd0kzUYJkwQmQBkUIQmwa2Po8cM="
+      version: 3
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - dongtaiwang.com_0
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - dongtaiwang.com_0
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - dongtaiwang.com_0
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - dongtaiwang.com_0
+rules:
+  - MATCH,🚀 节点选择
